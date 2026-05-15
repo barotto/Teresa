@@ -1,0 +1,54 @@
+// MAKEHELP.BAT generated Help Map file.  Used by TERESA.HPJ. 
+ 
+// Commands (ID_* and IDM_*) 
+HID_HUETDLG_LOG                         0x10003
+HID_INPUTOK                             0x10068
+HID_INPUTCANCEL                         0x10069
+HID_NUOVACOPPIA                         0x1006A
+HID_INPUTBAR_EDIT_IGNORAKEYUP           0x1006E
+HID_TRSVIEW_SAVE                        0x18003
+HID_SIDVIEW_ELIMINA                     0x18004
+HID_SIDVIEW_MODIFICA                    0x18005
+HID_TERMS_VIEW                          0x18006
+HID_TRS_VIEW                            0x18007
+HID_SIDVIEW_ORDER                       0x18013
+HID_SIDVIEW_REFRESH                     0x18014
+HID_VIEW_OUTPUTBAR                      0x1801A
+HID_SIDVIEW_TESTORDER                   0x1801B
+HID_OUTPUTEDIT_CLEAR                    0x1801D
+HID_OUTPUTEDIT_COPY                     0x18020
+HID_SIDVIEW_UNIFICAZIONE                0x18021
+HID_SIDVIEW_SWAPTERMS                   0x18023
+HID_SIDVIEW_COPPIECRITICHE              0x18025
+HID_SIDVIEW_HUET                        0x18026
+HID_TRSVIEW_WORDPROBLEM                 0x18027
+HID_SIDVIEW_PROPERTIES                  0x18028
+HID_SIDVIEW_DELETEALL                   0x18029
+HID_WORDPROBLEM                         0x1802A
+HID_OUTPUTEDIT_COPYALL                  0x1802B
+ 
+// Prompts (IDP_*) 
+ 
+// Resources (IDR_*) 
+HIDR_POPUP_TRSVIEW                      0x20066
+HIDR_POPUP_SIDVIEW                      0x20067
+HIDR_POPUP_TERMSVIEW                    0x2006E
+HIDR_MAINFRAME                          0x20080
+HIDR_TERESATYPE                         0x20081
+HIDR_POPUP_SIDVIEW_ITEM                 0x2008A
+HIDR_POPUP_OUTPUTEDIT                   0x20090
+ 
+// Dialogs (IDD_*) 
+HIDD_ABOUTBOX                           0x20064
+HIDD_EQUPROP                            0x2008B
+HIDD_TEORIAPROP                         0x2008C
+HIDD_PROBLEM                            0x2008D
+HIDD_ORDER                              0x2008E
+HIDD_ORDER_PROB                         0x2008F
+HIDD_HUET                               0x20092
+ 
+// Frame Controls (IDW_*) 
+HIDW_INPUTBAR                           0x5006B
+HIDW_INPUTBAR_EDIT                      0x5006C
+HIDW_OUTPUTBAR_EDIT                     0x5006D
+HIDW_OUTPUT_BAR                         0x50071

@@ -1,0 +1,63 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: TestConsole - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP253.TMP" with contents
+[
+/nologo /ML /W3 /GX /O2 /I "../trscore" /D "NDEBUG" /D "WIN32" /D "_CONSOLE" /D "_MBCS" /FR"Release/" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\dev\Logica2\TermRew\trscore\trsterm.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP253.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP0254.TMP" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/TestConsole.pdb" /machine:I386 /out:"Release/TestConsole.exe" 
+.\Release\main.obj
+.\Release\trs.obj
+.\Release\trscriticalpairs.obj
+.\Release\trsexception.obj
+.\Release\trshuet.obj
+.\Release\trslpoorder.obj
+.\Release\trsparser.obj
+.\Release\trsrewrite.obj
+.\Release\trssapairs.obj
+.\Release\trssubst.obj
+.\Release\trsterm.obj
+.\Release\trstermpair.obj
+.\Release\trsunify.obj
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP0254.TMP"
+<h3>Output Window</h3>
+Compiling...
+trsterm.cpp
+Linking...
+Creating temporary file "C:\WINDOWS\TEMP\RSP264.TMP" with contents
+[
+/nologo /o"Release/TestConsole.bsc" 
+.\Release\main.sbr
+.\Release\trs.sbr
+.\Release\trscriticalpairs.sbr
+.\Release\trsexception.sbr
+.\Release\trshuet.sbr
+.\Release\trslpoorder.sbr
+.\Release\trsparser.sbr
+.\Release\trsrewrite.sbr
+.\Release\trssapairs.sbr
+.\Release\trssubst.sbr
+.\Release\trsterm.sbr
+.\Release\trstermpair.sbr
+.\Release\trsunify.sbr]
+Creating command line "bscmake.exe @C:\WINDOWS\TEMP\RSP264.TMP"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+TestConsole.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

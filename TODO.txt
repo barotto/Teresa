@@ -1,0 +1,14 @@
+Teresa
+------
+* Implementare funzionalità di stampa
+* Consentire all'utente il riordinamento delle coppie
+* Attivare comando di copia per le regole del TRS
+* Consentire la scelta dei font per tutte le finestre
+* Debugging approfondito
+* Ottimizzare il codice 
+
+TRSCORE
+-------
+* Implementare KBO
+* Debugging approfondito
+* Ottimizzare il codice

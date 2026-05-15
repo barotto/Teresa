@@ -1,0 +1,57 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Teresa - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x410 /fo"Release/Teresa.res" /d "NDEBUG" /d "_AFXDLL" "C:\dev\Logica2\TermRew\Teresa\Teresa.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP7151.TMP" with contents
+[
+dockbars.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/Teresa.pdb" /machine:I386 /out:"Release/Teresa.exe" 
+.\Release\ChildFrm.obj
+.\Release\DescDlg.obj
+.\Release\EquProp.obj
+.\Release\Globals.obj
+.\Release\HuetDlg.obj
+.\Release\InputBar.obj
+.\Release\InputEdit.obj
+.\Release\MainFrm.obj
+.\Release\OrderDlg.obj
+.\Release\OrderProbDlg.obj
+.\Release\OutputBar.obj
+.\Release\OutputEdit.obj
+.\Release\SIDView.obj
+.\Release\StdAfx.obj
+.\Release\TeoriaProp.obj
+.\Release\Teresa.obj
+.\Release\TeresaDoc.obj
+.\Release\TermsView.obj
+.\Release\trs.obj
+.\Release\trscriticalpairs.obj
+.\Release\trsexception.obj
+.\Release\trshuet.obj
+.\Release\trslpoorder.obj
+.\Release\trsparser.obj
+.\Release\trsrewrite.obj
+.\Release\trssapairs.obj
+.\Release\trssubst.obj
+.\Release\trsterm.obj
+.\Release\trstermpair.obj
+.\Release\trsunify.obj
+.\Release\TRSView.obj
+.\Release\Teresa.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP7151.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Linking...
+
+
+
+<h3>Results</h3>
+Teresa.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,67 @@
+================================================================================
+                                    Teresa
+                                      -- 
+                        TErm REwriting Systems Application
+
+================================================================================
+
+ver. 1.0
+01/10/2001
+
+Copyright (C) 2001 Marco Bortolin, Alberto Minora
+
+
+Breve descrizione delle strutture dati impiegate
+------------------------------------------------
+Costanti (trsConst) e variabili (trsVar) sono condivise tra tutte le funzioni 
+in memoria. La loro gestione è affidata alla classe trsAlgebra che è 
+responsabile della loro distruzione; nessun'altro ha il permesso di chiamarne 
+una delete.
+
+Variabili e costanti di una funzione (trsFunc) sono tutte memorizzate in
+un'unica trsAlgebra; non è perciò permesso effettuare operazioni tra funzioni 
+di algebre diverse.
+
+I simboli delle costanti e delle funzioni sono memorizzati nella segnatura
+(trsSimArityPairs), anch'essa gestita da trsAlgebra, e condivisi tra tutte le
+costanti e le funzioni di una medesima algebra.
+
+Esempio di possibile struttura dati in memoria:
+(le frecce indicano puntatori)
+
+  termine   : f(X*Y,c)
+
+2 funzioni  : f,*
+1 costante  : c
+2 variabili : X,Y
+                                             trsAlgebra
+   trsFunc                                    m_signature =
+    m_sim = ---------------------------------> ("f" ,2)
+    m_args =              -------------------> ("*" ,2)
++----(1)                 /                     ("c" ,0) <----+           
+|    (2)----------------/----+                m_costants =    \
+|                      /      \---------------> trsConst      /
++> trsFunc            /                          m_sim = ----+
+    m_sim = ---------+                        m_variables =
+    m_args =                               ---> trsVar
+     (1)----------------------------------/      m_sim = "X"
+     (2)--------------------------------------> trsVar
+                                                 m_sim = "Y"
+
+Chi si occupa di realizzare l'algebra e le funzioni iniziali è il parser 
+(trsParser) che, data una stringa sintatticamente corretta, costruisce una
+coppia di termini (trsTermPair).
+
+trsTermPair contiene al suo interno due puntatori ad altrettanti termini
+(m_left e m_right). Il distruttore di questa classe si preoccupa di distruggere
+i termini controllando automanticamente il loro tipo (variabili o costanti non
+vengono distrutte). Affinchè un trsTermPair non distrugga i propri termini è
+necessario richiamarne il metodo AutoDispose(false).
+
+Una teoria o un TRS sono formati da una lista di coppie di termini 
+(trsTermPairs). Questa lista altro non è se non list<trsTermPair>, sono perciò
+disponibili i metodi standard delle STL per la sua manipolazione.
+
+trsSystem è la classe che si occupa di gestire una teoria e un TRS insieme 
+alla relativa algebra, garantendo una corretta distruzione degli oggetti in
+essa memorizzati.

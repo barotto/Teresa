@@ -1,0 +1,755 @@
+{\rtf1\ansi\ansicpg1252\uc1\deff6\stshfdbch0\stshfloch0\stshfhich0\stshfbi0\deflang1040\deflangfe1040{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f4\fswiss\fcharset0\fprq2{\*\panose 020b0504020202020204}Helvetica{\*\falt Arial};}{\f6\froman\fcharset0\fprq2{\*\panose 02020603040505020304}Tms Rmn;}{\f7\fswiss\fcharset0\fprq2{\*\panose 020b0604020202030204}Helv;}
+{\f35\fswiss\fcharset0\fprq2{\*\panose 020b0604030504040204}Tahoma;}{\f36\froman\fcharset0\fprq0{\*\panose 00000000000000000000}MS Sans Serif;}{\f66\froman\fcharset238\fprq2 Times New Roman CE;}{\f67\froman\fcharset204\fprq2 Times New Roman Cyr;}
+{\f69\froman\fcharset161\fprq2 Times New Roman Greek;}{\f70\froman\fcharset162\fprq2 Times New Roman Tur;}{\f71\froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\f72\froman\fcharset178\fprq2 Times New Roman (Arabic);}
+{\f73\froman\fcharset186\fprq2 Times New Roman Baltic;}{\f76\fswiss\fcharset238\fprq2 Arial CE;}{\f77\fswiss\fcharset204\fprq2 Arial Cyr;}{\f79\fswiss\fcharset161\fprq2 Arial Greek;}{\f80\fswiss\fcharset162\fprq2 Arial Tur;}
+{\f81\fswiss\fcharset177\fprq2 Arial (Hebrew);}{\f82\fswiss\fcharset178\fprq2 Arial (Arabic);}{\f83\fswiss\fcharset186\fprq2 Arial Baltic;}{\f416\fswiss\fcharset238\fprq2 Tahoma CE;}{\f417\fswiss\fcharset204\fprq2 Tahoma Cyr;}
+{\f419\fswiss\fcharset161\fprq2 Tahoma Greek;}{\f420\fswiss\fcharset162\fprq2 Tahoma Tur;}{\f421\fswiss\fcharset177\fprq2 Tahoma (Hebrew);}{\f422\fswiss\fcharset178\fprq2 Tahoma (Arabic);}{\f423\fswiss\fcharset186\fprq2 Tahoma Baltic;}
+{\f425\fswiss\fcharset222\fprq2 Tahoma (Thai);}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;
+\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\red255\green255\blue255;}{\stylesheet{
+\ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 \snext0 \styrsid12201901 Normal;}{\s1\ql \li0\ri0\sb240\nowidctlpar\faauto\outlinelevel0\rin0\lin0\itap0 
+\b\f7\fs24\ul\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 \sbasedon0 \snext0 heading 1;}{\s2\ql \li0\ri0\sb120\nowidctlpar\faauto\outlinelevel1\rin0\lin0\itap0 \b\f7\fs24\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 \sbasedon0 \snext0 \slink53 
+heading 2;}{\s3\ql \li0\ri0\nowidctlpar\faauto\outlinelevel2\rin0\lin0\itap0 \b\f1\fs22\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 \sbasedon0 \snext16 \slink52 \styrsid2908494 heading 3;}{
+\s4\ql \li360\ri0\nowidctlpar\faauto\outlinelevel3\rin0\lin360\itap0 \f6\fs24\ul\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 \sbasedon0 \snext16 heading 4;}{\s5\ql \li720\ri0\nowidctlpar\faauto\outlinelevel4\rin0\lin720\itap0 
+\b\f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 \sbasedon0 \snext16 heading 5;}{\s6\ql \li720\ri0\nowidctlpar\faauto\outlinelevel5\rin0\lin720\itap0 \f6\fs20\ul\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 \sbasedon0 \snext16 heading 6;}
+{\s7\ql \li720\ri0\nowidctlpar\faauto\outlinelevel6\rin0\lin720\itap0 \i\f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 \sbasedon0 \snext16 heading 7;}{\s8\ql \li720\ri0\nowidctlpar\faauto\outlinelevel7\rin0\lin720\itap0 
+\i\f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 \sbasedon0 \snext16 heading 8;}{\s9\ql \li720\ri0\nowidctlpar\faauto\outlinelevel8\rin0\lin720\itap0 \i\f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 \sbasedon0 \snext16 heading 9;}
+{\*\cs10 \additive \ssemihidden Default Paragraph Font;}{\*\ts11\tsrowd\trftsWidthB3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tscellwidthfts0\tsvertalt\tsbrdrt\tsbrdrl\tsbrdrb\tsbrdrr\tsbrdrdgl\tsbrdrdgr\tsbrdrh\tsbrdrv 
+\ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1024\langfe1024\cgrid\langnp1024\langfenp1024 \snext11 \ssemihidden Normal Table;}{\s15\ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 
+\f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 \sbasedon0 \snext15 \ssemihidden footnote text;}{\s16\ql \li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 \sbasedon0 \snext16 
+Normal Indent;}{\s17\ql \fi-240\li480\ri0\sb80\nowidctlpar\tx480\faauto\rin0\lin480\itap0 \f4\fs24\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 \sbasedon0 \snext17 nscba;}{\s18\ql \fi-240\li240\ri0\sa20\nowidctlpar\faauto\rin0\lin240\itap0 
+\f4\fs24\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 \sbasedon0 \snext18 j;}{\s19\ql \li480\ri0\sa20\nowidctlpar\faauto\rin0\lin480\itap0 \f4\fs24\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 \sbasedon0 \snext19 ij;}{
+\s20\ql \li0\ri0\sb80\sa20\nowidctlpar\faauto\rin0\lin0\itap0 \f4\fs24\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 \sbasedon0 \snext20 btb;}{\s21\ql \fi-240\li2400\ri0\sb20\sa20\nowidctlpar\faauto\rin0\lin2400\itap0 
+\f4\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 \sbasedon0 \snext21 ctcb;}{\s22\ql \fi-240\li480\ri0\sa40\nowidctlpar\tx480\faauto\rin0\lin480\itap0 \f4\fs24\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 \sbasedon0 \snext22 ns;}{
+\s23\ql \li0\ri0\sa120\nowidctlpar\faauto\rin0\lin0\itap0 \f4\fs28\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 \sbasedon0 \snext23 TT;}{\s24\ql \fi-240\li2400\ri0\sa20\nowidctlpar\faauto\rin0\lin2400\itap0 
+\f4\fs24\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 \sbasedon0 \snext24 crtj;}{\s25\ql \fi-240\li480\ri0\nowidctlpar\tx480\faauto\rin0\lin480\itap0 \f4\fs24\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 \sbasedon0 \snext25 nsca;}{
+\s26\ql \li0\ri0\sa20\nowidctlpar\faauto\rin0\lin0\itap0 \f4\fs24\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 \sbasedon0 \snext26 bt;}{\s27\ql \li240\ri0\sb120\sa40\nowidctlpar\faauto\rin0\lin240\itap0 
+\f4\fs24\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 \sbasedon0 \snext27 Hf;}{\s28\ql \li240\ri0\sb120\sa40\nowidctlpar\faauto\rin0\lin240\itap0 \f4\fs24\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 \sbasedon0 \snext28 Hs;}{
+\s29\ql \li480\ri0\sb120\sa40\nowidctlpar\faauto\rin0\lin480\itap0 \f4\fs24\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 \sbasedon0 \snext29 RT;}{\s30\ql \fi-2160\li2160\ri0\sb240\sa80\nowidctlpar\tx2160\faauto\rin0\lin2160\itap0 
+\f4\fs24\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 \sbasedon0 \snext30 c;}{\s31\ql \li2160\ri0\sa20\nowidctlpar\faauto\rin0\lin2160\itap0 \f4\fs24\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 \sbasedon0 \snext31 ct;}{
+\s32\ql \li240\ri0\sa20\nowidctlpar\faauto\rin0\lin240\itap0 \f4\fs24\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 \sbasedon0 \snext32 it;}{\s33\ql \li480\ri0\nowidctlpar\faauto\rin0\lin480\itap0 
+\f4\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 \sbasedon0 \snext33 nsct;}{\s34\ql \fi-160\li400\ri0\sb80\sa40\nowidctlpar\faauto\rin0\lin400\itap0 \f4\fs24\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 \sbasedon0 \snext34 nscb;}{
+\s35\ql \fi-2640\li2880\ri0\sb120\sa40\nowidctlpar\brdrb\brdrs\brdrw15 \brdrbtw\brdrs\brdrw15 \tx2880\faauto\rin0\lin2880\itap0 \f4\fs24\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 \sbasedon0 \snext35 HC2;}{
+\s36\ql \fi-2640\li2880\ri0\sb120\sa20\nowidctlpar\tx2880\faauto\rin0\lin2880\itap0 \f4\fs24\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 \sbasedon0 \snext36 C2;}{\s37\ql \fi-240\li2400\ri0\sa20\nowidctlpar\faauto\rin0\lin2400\itap0 
+\f4\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 \sbasedon0 \snext37 ctc;}{\s38\ql \li2160\ri0\sb160\nowidctlpar\faauto\rin0\lin2160\itap0 \f4\fs24\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 \sbasedon0 \snext38 crt;}{
+\s39\ql \li480\ri0\sb20\sa40\nowidctlpar\faauto\rin0\lin480\itap0 \f4\fs24\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 \sbasedon0 \snext39 or;}{\s40\ql \fi-259\li360\ri0\sb40\sa40\nowidctlpar\tx360\faauto\rin0\lin360\itap0 
+\f36\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 \sbasedon0 \snext40 Ln1;}{\s41\ql \li115\ri0\sb80\sa80\nowidctlpar\faauto\rin0\lin115\itap0 \f36\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 \sbasedon0 \snext0 *Intro;}{
+\s42\ql \li115\ri0\sb80\sa80\keepn\nowidctlpar\faauto\rin0\lin115\itap0 \b\f36\fs22\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 \sbasedon3 \snext41 *Title;}{\s43\ql \fi-245\li360\ri0\sb80\nowidctlpar\faauto\rin0\lin360\itap0 
+\f36\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 \snext43 *Jl;}{\s44\ql \li360\ri0\sb40\sa40\nowidctlpar\faauto\rin0\lin360\itap0 \f36\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 \snext0 Lp1;}{
+\s45\ql \fi-1800\li1915\ri0\sb60\sl-240\slmult0\nowidctlpar\tx1915\faauto\rin0\lin1915\itap0 \f36\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 \sbasedon0 \snext45 Tph;}{\s46\ql \li115\ri0\sb120\sa80\nowidctlpar\faauto\rin0\lin115\itap0 
+\b\f36\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 \snext40 Proch;}{\*\cs47 \additive \super \sbasedon10 \ssemihidden \styrsid479068 endnote reference;}{\*\cs48 \additive \super \sbasedon10 \ssemihidden \styrsid479068 footnote reference;}{
+\s49\ql \li0\ri0\nowidctlpar\tqc\tx4819\tqr\tx9638\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 \sbasedon0 \snext49 \styrsid479068 header;}{\s50\ql \li0\ri0\nowidctlpar\tqc\tx4819\tqr\tx9638\faauto\rin0\lin0\itap0 
+\f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 \sbasedon0 \snext50 \styrsid479068 footer;}{\s51\ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 \cbpat9 \f35\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 
+\sbasedon0 \snext51 \ssemihidden \styrsid2950516 Document Map;}{\*\cs52 \additive \b\f1\fs24\lang1033\langfe1040\langnp1033\langfenp1040 \sbasedon10 \slink3 \styrsid2908494 Titolo 3 Carattere;}{\*\cs53 \additive 
+\b\f7\fs24\lang1033\langfe1040\langnp1033\langfenp1040 \sbasedon10 \slink2 \styrsid1074880 Titolo 2 Carattere;}{\*\ts54\tsrowd\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv
+\brdrs\brdrw10 \trftsWidthB3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tscellwidthfts0\tsvertalt\tsbrdrt\tsbrdrl\tsbrdrb\tsbrdrr\tsbrdrdgl\tsbrdrdgr\tsbrdrh\tsbrdrv \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 
+\f6\fs20\lang1024\langfe1024\cgrid\langnp1024\langfenp1024 \sbasedon11 \snext54 \styrsid12201901 Table Grid;}}{\*\rsidtbl \rsid479068\rsid1074880\rsid2908494\rsid2950516\rsid3350148\rsid4749312\rsid5586143\rsid6435803\rsid6492927\rsid6499144\rsid6967628
+\rsid7031974\rsid7364493\rsid8273522\rsid8651274\rsid8738138\rsid8879305\rsid9380536\rsid9788572\rsid10780592\rsid11404781\rsid11494053\rsid11944016\rsid12201901\rsid13378394\rsid13908376\rsid14639767\rsid15098419\rsid15941761}
+{\*\generator Microsoft Word 10.0.2627;}{\info{\title AFXCORE}{\subject MFC Core RTF Help}{\author AFX}{\operator Barotto}{\creatim\yr1992\mo10\dy7\hr11\min4}{\revtim\yr2001\mo10\dy1\hr11\min51}{\version21}{\edmins416}{\nofpages49}{\nofwords3282}
+{\nofchars18713}{\*\company Barottosoft}{\nofcharsws21952}{\vern16437}}\margl1134\margr1134\margt1417\margb1134 \widowctrl\ftnbj\aenddoc\hyphhotz283\noxlattoyen\expshrtn\noultrlspc\dntblnsbdb\nospaceforul\hyphcaps0\horzdoc\dghspace120\dgvspace120
+\dghorigin1701\dgvorigin1984\dghshow0\dgvshow3\jcompress\viewkind4\viewscale120\nolnhtadjtbl\rsidroot479068 \donotshowmarkup1\fet0\sectd \linex576\endnhere\sectdefaultcl\sftnbj {\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl2
+\pnucltr\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang {\pntxta )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl6
+\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang 
+{\pntxtb (}{\pntxta )}}\pard\plain \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\f1\super\insrsid479068\charrsid6435803 #{\footnote \pard\plain 
+\s15\ql \li0\ri0\widctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 #}{\insrsid479068  main_index}}}{\cs48\f1\super\insrsid5586143 ${\footnote \pard\plain 
+\s15\ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid5586143 $}{\insrsid5586143  Indice della guida}}}{\cs48\f1\super\insrsid8651274 K{\footnote \pard\plain 
+\s15\ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid8651274 K}{\insrsid8651274  Indice della guida}}}{\f1\fs16\up6\insrsid479068\charrsid6435803  }{
+\cs52\b\f1\fs22\insrsid479068\charrsid8738138 Indice della Guida di Teresa}{\cs53\b\f7\fs24\insrsid479068\charrsid1074880 
+\par }{\f1\ulw\insrsid479068\charrsid6435803 
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\outlinelevel0\rin0\lin0\itap0\pararsid2950516 {\b\f1\insrsid479068\charrsid6435803 Comandi
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 {\f1\insrsid479068\charrsid6435803 \tab }{\f1\uldb\insrsid479068\charrsid6435803 Menu File}{\v\f1\insrsid479068\charrsid6435803 menu_file}{\f1\insrsid479068\charrsid6435803 
+\par \tab }{\f1\uldb\insrsid479068\charrsid6435803 Menu Modifica}{\v\f1\insrsid479068\charrsid6435803 menu_edit}{\f1\uldb\insrsid1074880 
+\par }{\f1\insrsid479068\charrsid6435803 \tab }{\f1\uldb\insrsid1074880\charrsid5586143 Menu Computa}{\v\f1\insrsid1074880\charrsid5586143 menu_computa}{\f1\insrsid1074880 
+\par \tab }{\f1\uldb\insrsid479068\charrsid6435803 Menu Visualizza}{\v\f1\insrsid479068\charrsid1074880 menu_view}{\f1\uldb\insrsid1074880\charrsid1074880 
+\par }{\f1\insrsid1074880\charrsid1074880 \tab }{\f1\uldb\insrsid1074880\charrsid5586143 Menu Opzioni}{\v\f1\insrsid1074880\charrsid5586143 menu_opzioni}{\f1\insrsid1074880 
+\par \tab }{\f1\uldb\insrsid479068\charrsid6435803 Menu Finestra}{\v\f1\insrsid479068\charrsid6435803 menu_window}{\f1\insrsid479068\charrsid6435803 
+\par \tab }{\f1\uldb\insrsid479068\charrsid6435803 Menu ?}{\v\f1\insrsid479068\charrsid6435803 menu_help}{\f1\insrsid479068\charrsid6435803 
+\par }\pard \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0\pararsid5586143 {\f1\insrsid5586143 
+\par }{\b\f1\insrsid5586143\charrsid5586143 Usare Teresa
+\par }{\f1\insrsid5586143 \tab }{\f1\uldb\insrsid5586143\charrsid5586143 Descrizione dell'interfaccia}{\v\f1\insrsid5586143\charrsid11494053 interfaccia}{\f1\insrsid5586143\charrsid5586143 
+\par }{\f1\insrsid5586143 \tab }{\i\f1\insrsid5586143\charrsid11494053 Definire una teoria
+\par }{\f1\insrsid5586143 \tab \tab }{\f1\uldb\insrsid5586143\charrsid5586143 Sintassi}{\v\f1\insrsid5586143\charrsid11494053 sintassi}{\f1\insrsid5586143\charrsid5586143 
+\par }{\f1\insrsid5586143 \tab \tab }{\f1\uldb\insrsid5586143\charrsid5586143 Inserire le coppie di termini}{\v\f1\insrsid5586143\charrsid11494053 inserire_coppie}{\f1\insrsid5586143\charrsid5586143 
+\par }{\f1\insrsid5586143 \tab \tab }{\f1\uldb\insrsid5586143\charrsid5586143 Modifica della teoria}{\v\f1\insrsid5586143\charrsid11494053 modifica_teoria}{\f1\insrsid5586143\charrsid5586143 
+\par }{\f1\insrsid5586143 \tab \tab }{\f1\uldb\insrsid5586143\charrsid5586143 Inserire un ordine}{\v\f1\insrsid5586143\charrsid11494053 inserire_ordine}{\f1\insrsid5586143\charrsid5586143 
+\par }{\f1\insrsid5586143 \tab }{\i\f1\insrsid5586143\charrsid11494053 Calcoli sulla teoria
+\par }{\f1\insrsid5586143 \tab \tab }{\f1\uldb\insrsid5586143\charrsid5586143 Test dell'ordine - Orientamento}{\v\f1\insrsid5586143\charrsid11494053 orientamento}{\f1\insrsid5586143\charrsid5586143 
+\par }{\f1\insrsid5586143 \tab \tab }{\f1\uldb\insrsid5586143\charrsid5586143 Unificazione}{\v\f1\insrsid5586143\charrsid11494053 unificazione}{\f1\insrsid5586143\charrsid5586143 
+\par }{\f1\insrsid5586143 \tab \tab }{\f1\uldb\insrsid5586143\charrsid5586143 Coppie critiche}{\v\f1\insrsid5586143\charrsid11494053 CP}{\f1\insrsid5586143\charrsid5586143 
+\par }{\f1\insrsid5586143 \tab \tab }{\f1\uldb\insrsid5586143\charrsid5586143 Ottenere un TRS con l'algoritmo di Huet}{\v\f1\insrsid5586143\charrsid11494053 huet}{\f1\insrsid5586143\charrsid5586143 
+\par }{\f1\insrsid5586143 \tab \tab }{\f1\uldb\insrsid5586143\charrsid5586143 Risolvere il problema della parola}{\v\f1\insrsid5586143\charrsid11494053 problema_parola}{\f1\insrsid5586143\charrsid5586143 
+\par }{\f1\insrsid5586143 
+\par }{\b\f1\insrsid5586143\charrsid5586143 Informazioni
+\par }{\f1\insrsid5586143 \tab }{\f1\uldb\insrsid5586143\charrsid5586143 Formato dei file TSA}{\v\f1\insrsid5586143\charrsid11494053 formato_file}{\f1\insrsid5586143\charrsid5586143 
+\par }{\f1\insrsid5586143 \tab }{\f1\uldb\insrsid5586143\charrsid5586143 Informazioni su Teresa}{\v\f1\insrsid5586143\charrsid11494053 info_programma}{\f1\insrsid5586143\charrsid5586143 
+\par }{\f1\insrsid5586143 \tab }{\f1\uldb\insrsid5586143\charrsid5586143 GNU General Public License}{\v\f1\insrsid5586143\charrsid11494053 gnu}{\insrsid5586143\charrsid5586143  }{\insrsid479068\charrsid6435803 \page }{
+\cs48\b\f1\super\insrsid479068\charrsid7364493 #{\footnote \pard\plain \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 #}{\insrsid479068 
+ menu_file}}K{\footnote \pard\plain \s15\ql \li0\ri0\widctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 K}{\insrsid479068  file: gestione}} ${\footnote \pard\plain 
+\s15\ql \li0\ri0\widctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 $}{\insrsid479068  Comandi del menu File}}}{\cs52\b\f1\fs24\insrsid479068\charrsid15941761 
+ Comandi del menu File}{\insrsid479068\charrsid6435803 
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 {\f1\insrsid479068\charrsid6435803 
+\par Il menu File comprende i seguenti comandi:
+\par 
+\par }\trowd \irow0\irowband0\ts11\trgaph108\trleft-108\trftsWidth1\trftsWidthB3\trftsWidthA3\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone 
+\cltxlrtb\clftsWidth3\clwWidth2055\clshdrawnil \cellx1947\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth7320\clshdrawnil \cellx9267\pard \ql \li0\ri0\sl240\slmult0
+\widctlpar\intbl\faauto\rin0\lin0 {\f1\uldb\insrsid479068\charrsid6435803 Nuovo}{\v\f1\insrsid479068\charrsid6435803 HID_FILE_NEW}{\f1\insrsid479068\charrsid6435803 \cell Crea un nuovo documento.\cell }\pard 
+\ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\f1\insrsid479068\charrsid6435803 \trowd \irow0\irowband0\ts11\trgaph108\trleft-108\trftsWidth1\trftsWidthB3\trftsWidthA3\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt
+\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth2055\clshdrawnil \cellx1947\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone 
+\cltxlrtb\clftsWidth3\clwWidth7320\clshdrawnil \cellx9267\row }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\intbl\faauto\rin0\lin0 {\f1\uldb\insrsid479068\charrsid6435803 Apri}{\v\f1\insrsid479068\charrsid6435803 HID_FILE_OPEN}{
+\f1\uldb\insrsid479068\charrsid6435803 \cell }{\f1\insrsid479068\charrsid6435803 Apre un documento esistente.\cell }\pard \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\f1\insrsid479068\charrsid6435803 \trowd \irow1\irowband1
+\ts11\trgaph108\trleft-108\trftsWidth1\trftsWidthB3\trftsWidthA3\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth2055\clshdrawnil \cellx1947
+\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth7320\clshdrawnil \cellx9267\row }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\intbl\faauto\rin0\lin0 {\f1\uldb\insrsid479068\charrsid6435803 
+Chiudi}{\v\f1\insrsid479068\charrsid6435803 HID_FILE_CLOSE}{\f1\uldb\insrsid479068\charrsid6435803 \cell }{\f1\insrsid479068\charrsid6435803 Chiude un documento aperto.\cell }\pard \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 
+{\f1\insrsid479068\charrsid6435803 \trowd \irow2\irowband2\ts11\trgaph108\trleft-108\trftsWidth1\trftsWidthB3\trftsWidthA3\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone 
+\cltxlrtb\clftsWidth3\clwWidth2055\clshdrawnil \cellx1947\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth7320\clshdrawnil \cellx9267\row }\pard \ql \li0\ri0\sl240\slmult0
+\widctlpar\intbl\faauto\rin0\lin0 {\f1\uldb\insrsid479068\charrsid6435803 Salva}{\v\f1\insrsid479068\charrsid6435803 HID_FILE_SAVE}{\f1\uldb\insrsid479068\charrsid6435803 \cell }{\f1\insrsid479068\charrsid6435803 
+Salva un documento aperto con lo stesso nome file.\cell }\pard \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\f1\insrsid479068\charrsid6435803 \trowd \irow3\irowband3
+\ts11\trgaph108\trleft-108\trftsWidth1\trftsWidthB3\trftsWidthA3\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth2055\clshdrawnil \cellx1947
+\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth7320\clshdrawnil \cellx9267\row }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\intbl\faauto\rin0\lin0 {\f1\uldb\insrsid479068\charrsid6435803 
+Salva con nome}{\v\f1\insrsid479068\charrsid6435803 HID_FILE_SAVE_AS}{\f1\uldb\insrsid479068\charrsid6435803 \cell }{\f1\insrsid479068\charrsid6435803 Salva un documento aperto con un nome file specificato.\cell }\pard 
+\ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\f1\insrsid479068\charrsid6435803 \trowd \irow4\irowband4\ts11\trgaph108\trleft-108\trftsWidth1\trftsWidthB3\trftsWidthA3\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt
+\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth2055\clshdrawnil \cellx1947\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone 
+\cltxlrtb\clftsWidth3\clwWidth7320\clshdrawnil \cellx9267\row }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\intbl\faauto\rin0\lin0 {\f1\uldb\insrsid479068\charrsid6435803 Stampa}{\v\f1\insrsid479068\charrsid6435803 HID_FILE_PRINT}{
+\f1\uldb\insrsid479068\charrsid6435803 \cell }{\f1\insrsid479068\charrsid6435803 Stampa un documento}{\f1\insrsid13908376  (non disponibile in questa versione)}{\f1\insrsid479068\charrsid6435803 .\cell }\pard 
+\ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\f1\insrsid479068\charrsid6435803 \trowd \irow5\irowband5\ts11\trgaph108\trleft-108\trftsWidth1\trftsWidthB3\trftsWidthA3\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt
+\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth2055\clshdrawnil \cellx1947\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone 
+\cltxlrtb\clftsWidth3\clwWidth7320\clshdrawnil \cellx9267\row }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\intbl\faauto\rin0\lin0 {\f1\uldb\insrsid479068\charrsid6435803 Anteprima di stampa}{\v\f1\insrsid479068\charrsid6435803 HID_FILE_PRINT_PREVIEW}{
+\f1\uldb\insrsid479068\charrsid6435803 \cell }{\f1\insrsid479068\charrsid6435803 Visualizza il documento sullo schermo come apparirebbe una volta stampato}{\f1\insrsid13908376 (non disponibile in questa versione)}{\f1\insrsid13908376\charrsid6435803 .}{
+\f1\insrsid479068\charrsid6435803 \cell }\pard \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\f1\insrsid479068\charrsid6435803 \trowd \irow6\irowband6
+\ts11\trgaph108\trleft-108\trftsWidth1\trftsWidthB3\trftsWidthA3\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth2055\clshdrawnil \cellx1947
+\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth7320\clshdrawnil \cellx9267\row }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\intbl\faauto\rin0\lin0 {\f1\uldb\insrsid479068\charrsid6435803 
+Imposta stampante}{\v\f1\insrsid479068\charrsid6435803 HID_FILE_PRINT_SETUP}{\f1\uldb\insrsid479068\charrsid6435803 \cell }{\f1\insrsid479068\charrsid6435803 Seleziona una stampante e la relativa connessione.\cell }\pard 
+\ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\f1\insrsid479068\charrsid6435803 \trowd \irow7\irowband7\ts11\trgaph108\trleft-108\trftsWidth1\trftsWidthB3\trftsWidthA3\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt
+\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth2055\clshdrawnil \cellx1947\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone 
+\cltxlrtb\clftsWidth3\clwWidth7320\clshdrawnil \cellx9267\row }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\intbl\faauto\rin0\lin0 {\f1\uldb\insrsid479068\charrsid6435803 Esci}{\v\f1\insrsid479068\charrsid6435803 HID_APP_EXIT}{
+\f1\insrsid479068\charrsid6435803 \tab 
+\par }{\f1\uldb\insrsid479068\charrsid6435803 \cell }{\f1\insrsid479068\charrsid6435803 Esce da }{\f1\insrsid2950516\charrsid6435803 Teresa.}{\f1\insrsid479068\charrsid6435803 \cell }\pard 
+\ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\f1\insrsid479068\charrsid6435803 \trowd \irow8\irowband8\lastrow \ts11\trgaph108\trleft-108\trftsWidth1\trftsWidthB3\trftsWidthA3\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 
+\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth2055\clshdrawnil \cellx1947\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone 
+\cltxlrtb\clftsWidth3\clwWidth7320\clshdrawnil \cellx9267\row }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 {\f1\insrsid479068\charrsid6435803 
+\par }\pard\plain \s3\ql \li0\ri0\nowidctlpar\faauto\outlinelevel2\rin0\lin0\itap0\pararsid2908494 \b\f1\fs22\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\insrsid479068\charrsid6435803 \page }{\cs48\super\insrsid479068\charrsid6435803 #{\footnote 
+\pard\plain \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\b\super\insrsid479068\charrsid479068 #}{\insrsid479068  menu_edit}}}{\cs48\super\insrsid8651274 K{\footnote 
+\pard\plain \s15\ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid8651274 K}{\insrsid8651274  Comandi del menu Modifica}}}{\cs48\super\insrsid5586143 ${\footnote \pard\plain 
+\s15\ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid5586143 $}{\insrsid5586143  Comandi del menu Modifica}}}{\insrsid479068\charrsid8738138 Comandi del menu Modifica}{
+\insrsid479068\charrsid6435803 
+\par }\pard\plain \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\f1\insrsid479068\charrsid6435803 
+\par Il menu Modifica comprende i seguenti comandi:
+\par }\pard \ql \fi-720\li720\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin720\itap0 {\f1\insrsid479068\charrsid6435803 
+\par }\trowd \irow0\irowband0\ts11\trgaph108\trleft-108\trftsWidth3\trwWidth11070\trftsWidthB3\trftsWidthA3\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone 
+\cltxlrtb\clftsWidth3\clwWidth2355\clshdrawnil \cellx2247\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth8715\clshdrawnil \cellx10962\pard \ql \li0\ri0\sl240\slmult0
+\widctlpar\intbl\faauto\rin0\lin0 {\f1\uldb\insrsid479068\charrsid13908376 Annulla}{\v\f1\insrsid479068\charrsid13908376 HID_EDIT_UNDO}{\f1\insrsid479068\charrsid13908376 \cell }{\f1\insrsid479068\charrsid6435803 Inverte l'ultima operazione di modifica.}{
+\f1\insrsid13908376\charrsid6435803 \cell }\pard \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\f1\insrsid479068\charrsid6435803 \trowd \irow0\irowband0
+\ts11\trgaph108\trleft-108\trftsWidth3\trwWidth11070\trftsWidthB3\trftsWidthA3\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth2355\clshdrawnil 
+\cellx2247\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth8715\clshdrawnil \cellx10962\row }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\intbl\faauto\rin0\lin0 {\f1\uldb\insrsid13908376 
+Nuova coppia}{\v\f1\insrsid13908376\charrsid13908376 inserire_coppie}{\f1\uldb\insrsid13908376\charrsid6435803 \cell }{\f1\insrsid13908376 Consente di aggiungere una nuova coppia di termini alla teoria.}{\f1\insrsid13908376\charrsid6435803 \cell }\pard 
+\ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\f1\insrsid13908376\charrsid6435803 \trowd \irow1\irowband1\ts11\trgaph108\trleft-108\trftsWidth3\trwWidth11070\trftsWidthB3\trftsWidthA3\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 
+\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth2355\clshdrawnil \cellx2247\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone 
+\cltxlrtb\clftsWidth3\clwWidth8715\clshdrawnil \cellx10962\row }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\intbl\faauto\rin0\lin0 {\f1\uldb\insrsid479068\charrsid6435803 Taglia}{\v\f1\insrsid479068\charrsid6435803 HID_EDIT_CUT}{
+\f1\uldb\insrsid479068\charrsid6435803 \cell }{\f1\insrsid479068\charrsid6435803 Elimina i dati dal documento e li pone negli Appunti.\cell }\pard \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {
+\f1\insrsid479068\charrsid6435803 \trowd \irow2\irowband2\ts11\trgaph108\trleft-108\trftsWidth3\trwWidth11070\trftsWidthB3\trftsWidthA3\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr
+\brdrnone \cltxlrtb\clftsWidth3\clwWidth2355\clshdrawnil \cellx2247\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth8715\clshdrawnil \cellx10962\row }\pard \ql \li0\ri0\sl240\slmult0
+\widctlpar\intbl\faauto\rin0\lin0 {\f1\uldb\insrsid479068\charrsid6435803 Copia}{\v\f1\insrsid479068\charrsid6435803 HID_EDIT_COPY}{\f1\uldb\insrsid479068\charrsid6435803 \cell }{\f1\insrsid479068\charrsid6435803 Copia i dati dal documento negli Appunti.
+\cell }\pard \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\f1\insrsid479068\charrsid6435803 \trowd \irow3\irowband3
+\ts11\trgaph108\trleft-108\trftsWidth3\trwWidth11070\trftsWidthB3\trftsWidthA3\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth2355\clshdrawnil 
+\cellx2247\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth8715\clshdrawnil \cellx10962\row }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\intbl\faauto\rin0\lin0 {
+\f1\uldb\insrsid479068\charrsid6435803 Incolla}{\v\f1\insrsid479068\charrsid6435803 HID_EDIT_PASTE}{\f1\uldb\insrsid479068\charrsid6435803 \cell }{\f1\insrsid479068\charrsid6435803 Incolla i dati dagli Appunti nel documento.\cell }\pard 
+\ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\f1\insrsid479068\charrsid6435803 \trowd \irow4\irowband4\ts11\trgaph108\trleft-108\trftsWidth3\trwWidth11070\trftsWidthB3\trftsWidthA3\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 
+\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth2355\clshdrawnil \cellx2247\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone 
+\cltxlrtb\clftsWidth3\clwWidth8715\clshdrawnil \cellx10962\row }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\intbl\faauto\rin0\lin0 {\f1\uldb\insrsid13908376\charrsid13908376 Modifica}{\v\f1\insrsid13908376\charrsid4749312 modifica_teoria}{
+\f1\uldb\insrsid13908376\charrsid13908376 \cell }{\f1\insrsid13908376 Consente di modificare la coppia selezionata.}{\f1\insrsid13908376\charrsid6435803 \cell }\pard \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {
+\f1\insrsid13908376\charrsid6435803 \trowd \irow5\irowband5\ts11\trgaph108\trleft-108\trftsWidth3\trwWidth11070\trftsWidthB3\trftsWidthA3\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr
+\brdrnone \cltxlrtb\clftsWidth3\clwWidth2355\clshdrawnil \cellx2247\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth8715\clshdrawnil \cellx10962\row }\pard \ql \li0\ri0\sl240\slmult0
+\widctlpar\intbl\faauto\rin0\lin0 {\f1\uldb\insrsid13908376 Inverti}{\v\f1\insrsid13908376\charrsid4749312 modifica_teoria}{\f1\uldb\insrsid13908376\charrsid6435803 \cell }{\f1\insrsid13908376 
+Inverte il termine sinistro col destro delle coppie selezionate.}{\f1\insrsid13908376\charrsid6435803 \cell }\pard \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\f1\insrsid13908376\charrsid6435803 \trowd \irow6\irowband6
+\ts11\trgaph108\trleft-108\trftsWidth3\trwWidth11070\trftsWidthB3\trftsWidthA3\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth2355\clshdrawnil 
+\cellx2247\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth8715\clshdrawnil \cellx10962\row }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\intbl\faauto\rin0\lin0 {\f1\uldb\insrsid13908376 Elimina
+}{\v\f1\insrsid13908376\charrsid4749312 modifica_teoria}{\f1\uldb\insrsid13908376 \cell }{\f1\insrsid4749312 Elimina dal documento le coppie selezionate.}{\f1\insrsid13908376 \cell }\pard 
+\ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\f1\insrsid13908376\charrsid6435803 \trowd \irow7\irowband7\ts11\trgaph108\trleft-108\trftsWidth3\trwWidth11070\trftsWidthB3\trftsWidthA3\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 
+\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth2355\clshdrawnil \cellx2247\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone 
+\cltxlrtb\clftsWidth3\clwWidth8715\clshdrawnil \cellx10962\row }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\intbl\faauto\rin0\lin0 {\f1\uldb\insrsid13908376 Elimina tutto}{\v\f1\insrsid13908376\charrsid4749312 modifica_teoria}{\f1\uldb\insrsid13908376 
+\cell }{\f1\insrsid4749312 Elimina dal documento tutte le coppie di termini.}{\f1\insrsid13908376 \cell }\pard \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\f1\insrsid13908376\charrsid6435803 \trowd \irow8\irowband8
+\ts11\trgaph108\trleft-108\trftsWidth3\trwWidth11070\trftsWidthB3\trftsWidthA3\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth2355\clshdrawnil 
+\cellx2247\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth8715\clshdrawnil \cellx10962\row }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\intbl\faauto\rin0\lin0 {\f1\uldb\insrsid4749312 Ordine}{
+\v\f1\insrsid4749312\charrsid4749312 inserire_ordine}{\f1\uldb\insrsid13908376 \cell }{\f1\insrsid4749312 Consente di inserire una relazione d'ordine tra i termini della teoria.}{\f1\insrsid13908376 \cell }\pard 
+\ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\f1\insrsid13908376\charrsid6435803 \trowd \irow9\irowband9\ts11\trgaph108\trleft-108\trftsWidth3\trwWidth11070\trftsWidthB3\trftsWidthA3\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 
+\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth2355\clshdrawnil \cellx2247\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone 
+\cltxlrtb\clftsWidth3\clwWidth8715\clshdrawnil \cellx10962\row }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\intbl\faauto\rin0\lin0 {\f1\insrsid4749312\charrsid4749312 Aggiorna\cell }{\f1\insrsid4749312 
+Aggiorna lo stato delle coppie, ad esempio a seguito di una correzione sull'ariet\'e0 di una funzione.\cell }\pard \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\f1\insrsid4749312\charrsid6435803 \trowd \irow10\irowband10
+\ts11\trgaph108\trleft-108\trftsWidth3\trwWidth11070\trftsWidthB3\trftsWidthA3\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth2355\clshdrawnil 
+\cellx2247\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth8715\clshdrawnil \cellx10962\row }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\intbl\faauto\rin0\lin0 {\f1\insrsid4749312 Propriet\'e0}
+{\f1\insrsid4749312\charrsid4749312 \cell }{\f1\insrsid4749312 Visualizza informazioni aggiuntive sulla coppia selezionata e sulla teoria, consente inoltre di inserire una descrizione del documento attivo.\cell }\pard 
+\ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\f1\insrsid4749312\charrsid6435803 \trowd \irow11\irowband11\lastrow 
+\ts11\trgaph108\trleft-108\trftsWidth3\trwWidth11070\trftsWidthB3\trftsWidthA3\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth2355\clshdrawnil 
+\cellx2247\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth8715\clshdrawnil \cellx10962\row }\pard \ql \fi-720\li720\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin720\itap0 {
+\f1\insrsid479068\charrsid6435803 
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 {\f1\insrsid479068\charrsid6435803 \tab }{\f1\insrsid1074880 
+\par \page }{\cs48\f1\super\insrsid6499144 #{\footnote \pard\plain \s15\ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid6499144 #}{\insrsid6499144  menu_computa}}}{
+\cs48\f1\super\insrsid8651274 K{\footnote \pard\plain \s15\ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid8651274 K}{\insrsid8651274  Comandi del menu Computa}}}{
+\cs48\f1\super\insrsid5586143 ${\footnote \pard\plain \s15\ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid5586143 $}{\insrsid5586143  Comandi del menu Computa}}}{
+\cs52\b\f1\fs22\insrsid6499144\charrsid6499144 Comandi del menu Computa}{\cs52\b\f1\fs22\insrsid6499144 
+\par 
+\par }{\f1\insrsid6499144 Il menu Computa comprende i seguenti comandi}{\f1\insrsid12201901 :
+\par 
+\par }\trowd \irow0\irowband0\ts54\trgaph70\trleft-108\trftsWidth1\trftsWidthB3\trftsWidthA3\trautofit1\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tbllkhdrrows\tbllklastrow\tbllkhdrcols\tbllklastcol \clvertalt\clbrdrt\brdrtbl \clbrdrl
+\brdrtbl \clbrdrb\brdrtbl \clbrdrr\brdrtbl \cltxlrtb\clftsWidth3\clwWidth2376\clshdrawnil \cellx2268\clvertalt\clbrdrt\brdrtbl \clbrdrl\brdrtbl \clbrdrb\brdrtbl \clbrdrr\brdrtbl \cltxlrtb\clftsWidth3\clwWidth7736\clshdrawnil \cellx10004\pard\plain 
+\ql \li0\ri0\sl240\slmult0\widctlpar\intbl\faauto\rin0\lin0\yts54 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\f1\uldb\insrsid12201901\charrsid12201901 Prova ordine}{\v\f1\insrsid12201901\charrsid12201901 orientamento}{\f1\insrsid12201901 
+\cell Confronta i termini destro e sinistro di ogni coppia con LPO.\cell }\pard\plain \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\f1\insrsid12201901 
+\trowd \irow0\irowband0\ts54\trgaph70\trleft-108\trftsWidth1\trftsWidthB3\trftsWidthA3\trautofit1\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tbllkhdrrows\tbllklastrow\tbllkhdrcols\tbllklastcol \clvertalt\clbrdrt\brdrtbl \clbrdrl
+\brdrtbl \clbrdrb\brdrtbl \clbrdrr\brdrtbl \cltxlrtb\clftsWidth3\clwWidth2376\clshdrawnil \cellx2268\clvertalt\clbrdrt\brdrtbl \clbrdrl\brdrtbl \clbrdrb\brdrtbl \clbrdrr\brdrtbl \cltxlrtb\clftsWidth3\clwWidth7736\clshdrawnil \cellx10004\row }\pard\plain 
+\ql \li0\ri0\sl240\slmult0\widctlpar\intbl\faauto\rin0\lin0\yts54 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\f1\uldb\insrsid12201901\charrsid12201901 Unificazione}{\v\f1\insrsid12201901\charrsid12201901 unificazione}{\f1\insrsid12201901 
+\cell Risolve il problema dell'unificazione per tutte le coppie.\cell }\pard\plain \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\f1\insrsid12201901 
+\trowd \irow1\irowband1\ts54\trgaph70\trleft-108\trftsWidth1\trftsWidthB3\trftsWidthA3\trautofit1\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tbllkhdrrows\tbllklastrow\tbllkhdrcols\tbllklastcol \clvertalt\clbrdrt\brdrtbl \clbrdrl
+\brdrtbl \clbrdrb\brdrtbl \clbrdrr\brdrtbl \cltxlrtb\clftsWidth3\clwWidth2376\clshdrawnil \cellx2268\clvertalt\clbrdrt\brdrtbl \clbrdrl\brdrtbl \clbrdrb\brdrtbl \clbrdrr\brdrtbl \cltxlrtb\clftsWidth3\clwWidth7736\clshdrawnil \cellx10004\row }\pard\plain 
+\ql \li0\ri0\sl240\slmult0\widctlpar\intbl\faauto\rin0\lin0\yts54 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\f1\uldb\insrsid12201901\charrsid12201901 Coppie critiche}{\v\f1\insrsid12201901\charrsid12201901 CP}{\f1\insrsid12201901 \cell 
+}\pard \ql \fi-1080\li1080\ri0\sl240\slmult0\widctlpar\intbl\tx1080\faauto\rin0\lin1080\pararsid12201901\yts54 {\f1\insrsid12201901 Trova le coppie critiche considerando le coppie di termini come le regole di un TRS.\cell }\pard\plain 
+\ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\f1\insrsid12201901 \trowd \irow2\irowband2
+\ts54\trgaph70\trleft-108\trftsWidth1\trftsWidthB3\trftsWidthA3\trautofit1\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tbllkhdrrows\tbllklastrow\tbllkhdrcols\tbllklastcol \clvertalt\clbrdrt\brdrtbl \clbrdrl\brdrtbl \clbrdrb\brdrtbl 
+\clbrdrr\brdrtbl \cltxlrtb\clftsWidth3\clwWidth2376\clshdrawnil \cellx2268\clvertalt\clbrdrt\brdrtbl \clbrdrl\brdrtbl \clbrdrb\brdrtbl \clbrdrr\brdrtbl \cltxlrtb\clftsWidth3\clwWidth7736\clshdrawnil \cellx10004\row }\pard\plain \ql \li0\ri0\sl240\slmult0
+\widctlpar\intbl\faauto\rin0\lin0\yts54 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\f1\uldb\insrsid12201901\charrsid12201901 Completamento}{\v\f1\insrsid12201901\charrsid12201901 huet}{\f1\insrsid12201901 \cell 
+Completa la teoria con la procedura di Huet.\cell }\pard\plain \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\f1\insrsid12201901 \trowd \irow3\irowband3
+\ts54\trgaph70\trleft-108\trftsWidth1\trftsWidthB3\trftsWidthA3\trautofit1\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tbllkhdrrows\tbllklastrow\tbllkhdrcols\tbllklastcol \clvertalt\clbrdrt\brdrtbl \clbrdrl\brdrtbl \clbrdrb\brdrtbl 
+\clbrdrr\brdrtbl \cltxlrtb\clftsWidth3\clwWidth2376\clshdrawnil \cellx2268\clvertalt\clbrdrt\brdrtbl \clbrdrl\brdrtbl \clbrdrb\brdrtbl \clbrdrr\brdrtbl \cltxlrtb\clftsWidth3\clwWidth7736\clshdrawnil \cellx10004\row }\pard\plain \ql \li0\ri0\sl240\slmult0
+\widctlpar\intbl\faauto\rin0\lin0\yts54 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\f1\uldb\insrsid12201901\charrsid12201901 Problema della parola}{\v\f1\insrsid12201901\charrsid12201901 problema_parola}{\f1\insrsid12201901 \cell }\pard 
+\ql \fi-1080\li1080\ri0\sl240\slmult0\widctlpar\intbl\tx1080\faauto\rin0\lin1080\pararsid12201901\yts54 {\f1\insrsid12201901 Consente di risolvere il problema della parola.\cell }\pard\plain 
+\ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\f1\insrsid12201901 \trowd \irow4\irowband4\lastrow 
+\ts54\trgaph70\trleft-108\trftsWidth1\trftsWidthB3\trftsWidthA3\trautofit1\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tbllkhdrrows\tbllklastrow\tbllkhdrcols\tbllklastcol \clvertalt\clbrdrt\brdrtbl \clbrdrl\brdrtbl \clbrdrb\brdrtbl 
+\clbrdrr\brdrtbl \cltxlrtb\clftsWidth3\clwWidth2376\clshdrawnil \cellx2268\clvertalt\clbrdrt\brdrtbl \clbrdrl\brdrtbl \clbrdrb\brdrtbl \clbrdrr\brdrtbl \cltxlrtb\clftsWidth3\clwWidth7736\clshdrawnil \cellx10004\row }\pard \ql \li0\ri0\sl240\slmult0
+\widctlpar\faauto\rin0\lin0\itap0 {\f1\insrsid479068\charrsid6435803 \page }{\cs48\f1\super\insrsid479068\charrsid6435803 #{\footnote \pard\plain \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 
+\f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 #}{\insrsid479068  menu_view}}}{\cs48\f1\super\insrsid8651274 K{\footnote \pard\plain \s15\ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 
+\f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid8651274 K}{\insrsid8651274  Comandi del menu Visualizza}}}{\cs48\f1\super\insrsid5586143 ${\footnote \pard\plain \s15\ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 
+\f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid5586143 $}{\insrsid5586143  Comandi del menu Visualizza}}}{\cs52\b\f1\fs22\insrsid479068\charrsid8738138 Comandi del menu Visualizza
+\par }{\f1\insrsid479068\charrsid6435803 
+\par Il menu Visualizza comprende i seguenti comandi:
+\par 
+\par }\trowd \irow0\irowband0\ts11\trgaph108\trleft-108\trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth2115\clshdrawnil \cellx2007\clvertalt
+\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth6180\clshdrawnil \cellx8187\pard \ql \li0\ri0\sl240\slmult0\widctlpar\intbl\faauto\rin0\lin0 {\f1\uldb\insrsid479068\charrsid6435803 
+Barra degli strumenti}{\v\f1\insrsid479068\charrsid6435803 HID_VIEW_TOOLBAR}{\f1\uldb\insrsid479068\charrsid6435803 \cell }{\f1\insrsid479068\charrsid6435803 Mostra o nasconde la barra degli strumenti.\cell }\pard 
+\ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\f1\insrsid479068\charrsid6435803 \trowd \irow0\irowband0\ts11\trgaph108\trleft-108\trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrnone \clbrdrl
+\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth2115\clshdrawnil \cellx2007\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth6180\clshdrawnil \cellx8187\row }\pard 
+\ql \li0\ri0\sl240\slmult0\widctlpar\intbl\faauto\rin0\lin0 {\f1\uldb\insrsid479068\charrsid6435803 Barra di stato}{\v\f1\insrsid479068\charrsid6435803 HID_VIEW_STATUS_BAR}{\f1\uldb\insrsid479068\charrsid6435803 \cell }\pard 
+\ql \fi-720\li720\ri0\sl240\slmult0\widctlpar\intbl\faauto\rin0\lin720 {\f1\insrsid479068\charrsid6435803 Mostra o nasconde la barra di stato.
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\intbl\faauto\rin0\lin0 {\f1\insrsid479068\charrsid6435803 \cell }\pard \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\f1\insrsid479068\charrsid6435803 \trowd \irow1\irowband1
+\ts11\trgaph108\trleft-108\trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth2115\clshdrawnil \cellx2007\clvertalt\clbrdrt\brdrnone 
+\clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth6180\clshdrawnil \cellx8187\row }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\intbl\faauto\rin0\lin0 {\f1\insrsid4749312\charrsid4749312 Barra di output\cell }\pard 
+\ql \fi-720\li720\ri0\sl240\slmult0\widctlpar\intbl\faauto\rin0\lin720 {\f1\insrsid4749312 Mostra o nasconde la barra che contiene la }{\f1\uldb\insrsid4749312\charrsid4749312 finestra di output}{\v\f1\insrsid4749312\charrsid4749312 interfaccia}{
+\f1\insrsid4749312 .}{\f1\insrsid4749312\charrsid6435803 \cell }\pard \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\f1\insrsid4749312\charrsid6435803 \trowd \irow2\irowband2\lastrow 
+\ts11\trgaph108\trleft-108\trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth2115\clshdrawnil \cellx2007\clvertalt\clbrdrt\brdrnone 
+\clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth6180\clshdrawnil \cellx8187\row }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 {\f1\insrsid12201901 
+\par \page }{\cs48\f1\super\insrsid12201901 #{\footnote \pard\plain \s15\ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid12201901 #}{\insrsid12201901  menu_opzioni}}}{
+\cs48\f1\super\insrsid8651274 K{\footnote \pard\plain \s15\ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid8651274 K}{\insrsid8651274  Comandi del menu Opzioni}}}{
+\cs48\f1\super\insrsid5586143 ${\footnote \pard\plain \s15\ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid5586143 $}{\insrsid5586143  Comandi del menu Opzioni}}}{
+\cs52\b\f1\fs22\insrsid12201901\charrsid12201901 Comandi del menu Opzioni}{\f1\insrsid12201901 
+\par 
+\par Il menu Opzioni comprende i seguenti comandi:
+\par 
+\par }{\cs48\b\f1\super\insrsid8879305 ${\footnote \pard\plain \s15\ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid8879305 $}{\insrsid8879305  Ottieni dettagli}}}{
+\b\f1\insrsid12201901\charrsid12201901 Ottieni dettagli
+\par }{\f1\insrsid12201901 se attivato}{\f1\insrsid8879305 ,}{\f1\insrsid12201901  per ogni comando di }{\f1\uldb\insrsid14639767 c}{\f1\uldb\insrsid12201901\charrsid8879305 omputazione}{\v\f1\insrsid12201901\charrsid8651274 menu_computa}{
+\f1\insrsid12201901\charrsid8651274  }{\f1\insrsid12201901 (tranne }{\f1\uldb\insrsid12201901\charrsid14639767 Completamento}{\v\f1\insrsid14639767\charrsid14639767 huet}{\f1\insrsid12201901 , per il quale \'e8 possibile generare un file di log, e }{
+\f1\uldb\insrsid12201901\charrsid14639767 Problema della parola}{\v\f1\insrsid14639767\charrsid14639767 problema_parola}{\f1\insrsid12201901 ) }{\f1\insrsid8879305 verranno visualizzate nella }{\f1\uldb\insrsid8879305\charrsid14639767 finestra di output}{
+\v\f1\insrsid14639767\charrsid14639767 interfaccia}{\f1\insrsid8879305 , oltre al risultato, anche dettagliate informazioni sui passaggi effettuati durante il calcolo.
+\par 
+\par }{\cs48\f1\super\insrsid8879305 ${\footnote \pard\plain \s15\ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid8879305 $}{\insrsid8879305  Associa file *.TSA}}}{
+\b\f1\insrsid8879305\charrsid13378394 Associa file *.TSA}{\f1\insrsid8879305 
+\par crea l'associazione, nel registro di Windows, tra Teresa e i file con estensione *.tsa , sar\'e0 cos\'ec possibile aprire tali file con un semplice doppio-clic sull'icona corrispondente }{\f1\insrsid13378394 nell'Explorer di Windows.
+\par 
+\par }{\cs48\f1\super\insrsid13378394 ${\footnote \pard\plain \s15\ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid13378394 $}{\insrsid13378394  Dissocia file *.TSA}}}{
+\b\f1\insrsid13378394\charrsid13378394 Dissocia file *.TSA}{\f1\insrsid13378394 
+\par toglie l'associazione tra i file con estensione *.tsa e Teresa. Utile prima di disinstallare Teresa dal sistema nel caso si sia attivato il comando "Associa file *.TSA" in precedenza.}{\f1\insrsid479068\charrsid6435803 \page }{
+\cs48\f1\super\insrsid479068\charrsid6435803 #{\footnote \pard\plain \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 #}{\insrsid479068 
+ menu_window}}}{\cs48\f1\super\insrsid8651274 K{\footnote \pard\plain \s15\ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid8651274 K}{\insrsid8651274  Comandi del menu Finestra}
+}}{\cs48\f1\super\insrsid5586143 ${\footnote \pard\plain \s15\ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid5586143 $}{\insrsid5586143  Comandi del menu Finestra}}}{
+\cs52\b\f1\fs22\insrsid479068\charrsid8738138 Comandi del menu Finestra
+\par }{\f1\insrsid479068\charrsid6435803 
+\par Il menu Finestra comprende i seguenti comandi, che consentono di disporre visualizzazioni multiple di pi\'f9 documenti nella finestra dell'applicazione:
+\par 
+\par }\trowd \irow0\irowband0\ts11\trgaph108\trleft-108\trftsWidth1\trftsWidthB3\trftsWidthA3\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone 
+\cltxlrtb\clftsWidth3\clwWidth1680\clshdrawnil \cellx1572\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth6180\clshdrawnil \cellx7752\pard \ql \li0\ri0\sl240\slmult0
+\widctlpar\intbl\faauto\rin0\lin0 {\f1\uldb\insrsid479068\charrsid6435803 Nuova finestra}{\v\f1\insrsid479068\charrsid6435803 HID_WINDOW_NEW}{\f1\uldb\insrsid479068\charrsid6435803 \cell }{\f1\insrsid479068\charrsid6435803 
+Crea una nuova finestra che visualizza lo stesso documento.\cell }\pard \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\f1\insrsid479068\charrsid6435803 \trowd \irow0\irowband0
+\ts11\trgaph108\trleft-108\trftsWidth1\trftsWidthB3\trftsWidthA3\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth1680\clshdrawnil \cellx1572
+\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth6180\clshdrawnil \cellx7752\row }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\intbl\faauto\rin0\lin0 {\f1\uldb\insrsid479068\charrsid6435803 
+Sovrapposte}{\v\f1\insrsid479068\charrsid6435803 HID_WINDOW_CASCADE}{\f1\uldb\insrsid479068\charrsid6435803 \cell }{\f1\insrsid479068\charrsid6435803 Dispone le finestre in modo sovrapposto.\cell }\pard 
+\ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\f1\insrsid479068\charrsid6435803 \trowd \irow1\irowband1\ts11\trgaph108\trleft-108\trftsWidth1\trftsWidthB3\trftsWidthA3\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt
+\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth1680\clshdrawnil \cellx1572\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone 
+\cltxlrtb\clftsWidth3\clwWidth6180\clshdrawnil \cellx7752\row }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\intbl\faauto\rin0\lin0 {\f1\uldb\insrsid479068\charrsid6435803 Affianca}{\v\f1\insrsid479068\charrsid6435803 HID_WINDOW_TILE}{
+\f1\uldb\insrsid479068\charrsid6435803 \cell }{\f1\insrsid479068\charrsid6435803 Dispone le finestre in modo affiancato, senza sovrapporle.\cell }\pard \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {
+\f1\insrsid479068\charrsid6435803 \trowd \irow2\irowband2\ts11\trgaph108\trleft-108\trftsWidth1\trftsWidthB3\trftsWidthA3\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone 
+\cltxlrtb\clftsWidth3\clwWidth1680\clshdrawnil \cellx1572\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth6180\clshdrawnil \cellx7752\row }\pard \ql \li0\ri0\sl240\slmult0
+\widctlpar\intbl\faauto\rin0\lin0 {\f1\uldb\insrsid479068\charrsid6435803 Disponi icone}{\v\f1\insrsid479068\charrsid6435803 HID_WINDOW_ARRANGE}{\f1\uldb\insrsid479068\charrsid6435803 \cell }\pard \ql \fi-720\li720\ri0\sl240\slmult0
+\widctlpar\intbl\faauto\rin0\lin720 {\f1\insrsid479068\charrsid6435803 Dispone le icone delle finestre chiuse.\cell }\pard \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\f1\insrsid479068\charrsid6435803 \trowd \irow3\irowband3
+\ts11\trgaph108\trleft-108\trftsWidth1\trftsWidthB3\trftsWidthA3\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth1680\clshdrawnil \cellx1572
+\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth6180\clshdrawnil \cellx7752\row }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\intbl\faauto\rin0\lin0 {\f1\uldb\insrsid479068\charrsid6435803 
+Finestra 1, 2, ...}{\v\f1\insrsid479068\charrsid6435803 HID_WINDOW_ALL}{\f1\uldb\insrsid479068\charrsid6435803 \cell }\pard \ql \fi-720\li720\ri0\sl240\slmult0\widctlpar\intbl\faauto\rin0\lin720 {\f1\insrsid479068\charrsid6435803 Passa
+ alla finestra specificata.\cell }\pard \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\f1\insrsid479068\charrsid6435803 \trowd \irow4\irowband4\lastrow 
+\ts11\trgaph108\trleft-108\trftsWidth1\trftsWidthB3\trftsWidthA3\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth1680\clshdrawnil \cellx1572
+\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth6180\clshdrawnil \cellx7752\row }\pard \ql \fi-720\li720\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin720\itap0 {
+\f1\insrsid479068\charrsid6435803 
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 {\f1\insrsid479068\charrsid6435803 
+\par \page }{\cs48\f1\super\insrsid479068\charrsid6435803 #{\footnote \pard\plain \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 #}{
+\insrsid479068  menu_help}}}{\cs48\f1\super\insrsid5586143 ${\footnote \pard\plain \s15\ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid5586143 $}{\insrsid5586143 
+ Comandi del menu ?}}}{\cs52\b\f1\fs22\insrsid479068\charrsid8738138 Comandi del menu ?
+\par }{\f1\insrsid479068\charrsid6435803 
+\par Il menu ? comprende i seguenti comandi, che forniscono informazioni relative a questa applicazione: 
+\par 
+\par }\trowd \irow0\irowband0\ts11\trgaph108\trleft-108\trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth2190\clshdrawnil \cellx2082\clvertalt
+\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth6180\clshdrawnil \cellx8262\pard \ql \li0\ri0\sl240\slmult0\widctlpar\intbl\faauto\rin0\lin0 {\f1\uldb\insrsid479068\charrsid6435803 
+Argomenti della Guida}{\v\f1\insrsid479068\charrsid6435803 HID_HELP_INDEX}{\f1\uldb\insrsid479068\charrsid6435803 \cell }{\f1\insrsid479068\charrsid6435803 Mette a disposizione un indice di argomenti su cui \'e8 possibile richiamare la Guida.\cell }\pard 
+\ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\f1\insrsid479068\charrsid6435803 \trowd \irow0\irowband0\ts11\trgaph108\trleft-108\trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrnone \clbrdrl
+\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth2190\clshdrawnil \cellx2082\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth6180\clshdrawnil \cellx8262\row }\pard 
+\ql \li0\ri0\sl240\slmult0\widctlpar\intbl\faauto\rin0\lin0 {\f1\uldb\insrsid479068\charrsid6435803 Informazioni su}{\v\f1\insrsid479068\charrsid6435803 HID_APP_ABOUT}{\f1\uldb\insrsid479068\charrsid6435803 \cell }{\f1\insrsid479068\charrsid6435803 
+Visualizza il numero di versione di questa applicazione.\cell }\pard \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\f1\insrsid479068\charrsid6435803 \trowd \irow1\irowband1\lastrow 
+\ts11\trgaph108\trleft-108\trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth2190\clshdrawnil \cellx2082\clvertalt\clbrdrt\brdrnone 
+\clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth6180\clshdrawnil \cellx8262\row }\pard \ql \fi-720\li720\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin720\itap0 {\f1\insrsid479068\charrsid6435803 
+\par 
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 {\f1\insrsid479068\charrsid6435803 \page }{\cs48\f1\super\insrsid479068\charrsid6435803 #{\footnote \pard\plain \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 
+\f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 #}{\insrsid479068  HID_FILE_NEW}}K{\footnote \pard\plain \s15\ql \li0\ri0\widctlpar\faauto\rin0\lin0\itap0 
+\f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 K}{\insrsid479068  file: gestione}}}{\f1\insrsid479068\charrsid6435803  }{\cs48\f1\super\insrsid479068\charrsid6435803 ${\footnote \pard\plain 
+\s15\ql \li0\ri0\widctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 $}{\insrsid479068  Comando Nuovo (menu File)}}}{\f1\insrsid479068\charrsid6435803  }{
+\cs52\b\f1\fs22\insrsid479068\charrsid8738138 Comando Nuovo (menu File)
+\par }{\f1\insrsid479068\charrsid6435803 
+\par Utilizzare questo comando per creare un nuovo documento in }{\f1\insrsid9380536 Teresa. }{\f1\insrsid479068\charrsid6435803 
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\outlinelevel0\rin0\lin0\itap0\pararsid2950516 {\f1\insrsid479068\charrsid6435803 \'c8 possibile aprire un documento esistente tramite il }{\f1\uldb\insrsid479068\charrsid6435803 comando Apri}{
+\v\f1\insrsid479068\charrsid6435803 HID_FILE_OPEN}{\f1\insrsid479068\charrsid6435803 .
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 {\f1\insrsid479068\charrsid6435803 
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\outlinelevel0\rin0\lin0\itap0\pararsid2950516 {\b\f1\insrsid479068\charrsid6435803 Tasti di scelta rapida
+\par }\pard \ql \fi-1080\li1440\ri0\sl240\slmult0\widctlpar\tx1440\faauto\outlinelevel0\rin0\lin1440\itap0\pararsid2950516 {\f1\insrsid479068\charrsid6435803 Barra degli strumenti:\tab \{bmc filenew.bmp\}
+\par }\pard \ql \fi-1080\li1440\ri0\sl240\slmult0\widctlpar\tx1440\faauto\rin0\lin1440\itap0 {\f1\insrsid479068\charrsid6435803 Tasti:\tab \tab \tab CTRL+N
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 {\f1\insrsid479068\charrsid6435803 
+\par \page }{\cs48\f1\super\insrsid479068\charrsid6435803 #{\footnote \pard\plain \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 #}{
+\insrsid479068  HID_FILE_OPEN}}K{\footnote \pard\plain \s15\ql \li0\ri0\widctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 K}{\insrsid479068  file: gestione}}}{
+\f1\insrsid479068\charrsid6435803  }{\cs48\f1\super\insrsid479068\charrsid6435803 ${\footnote \pard\plain \s15\ql \li0\ri0\widctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {
+\cs48\super\insrsid479068\charrsid479068 $}{\insrsid479068  comando Apri (menu File)}}}{\f1\insrsid479068\charrsid6435803  }{\cs52\b\f1\fs22\insrsid479068\charrsid11404781 Comando Apri (menu File)
+\par }{\f1\insrsid479068\charrsid6435803 
+\par Utilizzare questo comando per aprire un documento esistente in una nuova finestra.  \'c8 possibile aprire pi\'f9 documenti contemporaneamente. Utilizzare menu Finestra per spostarsi tra i documenti aperti. Consultare il }{
+\f1\uldb\insrsid479068\charrsid6435803 comando Finestra 1, 2, ...}{\v\f1\insrsid479068\charrsid6435803 HID_WINDOW_ALL}{\f1\insrsid479068\charrsid6435803  .
+\par 
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\outlinelevel0\rin0\lin0\itap0\pararsid2950516 {\f1\insrsid479068\charrsid6435803 \'c8 possibile creare nuovi documenti con il }{\f1\uldb\insrsid479068\charrsid6435803 comando Nuovo}{
+\v\f1\insrsid479068\charrsid6435803 HID_FILE_NEW}{\f1\insrsid479068\charrsid6435803 .
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 {\f1\insrsid479068\charrsid6435803 
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\outlinelevel0\rin0\lin0\itap0\pararsid2950516 {\b\f1\insrsid479068\charrsid6435803 Tasti di scelta rapida
+\par }\pard \ql \fi-1080\li1440\ri0\sl240\slmult0\widctlpar\tx1440\faauto\outlinelevel0\rin0\lin1440\itap0\pararsid2950516 {\f1\insrsid479068\charrsid6435803 Barra degli strumenti:\tab \{bmc fileopen.bmp\}
+\par }\pard \ql \fi-1080\li1440\ri0\sl240\slmult0\widctlpar\tx1440\faauto\rin0\lin1440\itap0 {\f1\insrsid479068\charrsid6435803 Tasti:\tab \tab \tab CTRL+O
+\par }\pard \ql \li360\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin360\itap0 {\f1\insrsid479068\charrsid6435803 
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 {\f1\insrsid479068\charrsid6435803 \page }{\cs48\f1\super\insrsid479068\charrsid6435803 #{\footnote \pard\plain \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 
+\f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 #}{\insrsid479068  AFX_HIDD_FILEOPEN}}}{\cs52\b\f1\fs22\insrsid479068\charrsid11404781 Finestra di dialogo Apri (menu File)
+\par }{\f1\insrsid479068\charrsid6435803 
+\par Le seguenti opzioni consentono di specificare il file da aprire:
+\par }\pard \ql \li0\ri0\sb60\sl240\slmult0\widctlpar\faauto\outlinelevel0\rin0\lin0\itap0\pararsid2950516 {\b\f1\insrsid479068\charrsid6435803 Nome file
+\par }\pard \ql \li360\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin360\itap0 {\f1\insrsid479068\charrsid6435803 Digitare o selezionare il nome del file che si desidera aprire. Questa casella elenca i file con l'estensione selezionata nella casella Tipo file. 
+
+\par }\pard \ql \li0\ri0\sb60\sl240\slmult0\widctlpar\faauto\outlinelevel0\rin0\lin0\itap0\pararsid2950516 {\b\f1\insrsid479068\charrsid6435803 Tipo file
+\par }\pard \ql \li360\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin360\itap0 {\f1\insrsid479068\charrsid6435803 Selezionare il tipo di }{\f1\insrsid9380536 file che si}{\f1\insrsid11404781  desidera aprire. Il }{\f1\uldb\insrsid11404781\charrsid11404781 
+tipo di file di Teresa}{\v\f1\insrsid11404781\charrsid11404781 formato_file}{\f1\insrsid11404781  ha estensione *.tsa}{\f1\insrsid479068\charrsid6435803 
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 {\f1\insrsid479068\charrsid6435803 \page }{\cs48\f1\super\insrsid479068\charrsid6435803 #{\footnote \pard\plain \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 
+\f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 #}{\insrsid479068  HID_FILE_CLOSE}}K{\footnote \pard\plain \s15\ql \li0\ri0\widctlpar\faauto\rin0\lin0\itap0 
+\f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 K}{\insrsid479068  file: gestione}}}{\f1\insrsid479068\charrsid6435803  }{\cs48\f1\super\insrsid479068\charrsid6435803 ${\footnote \pard\plain 
+\s15\ql \li0\ri0\widctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 $}{\insrsid479068  comando Chiudi (menu File)}}}{\f1\insrsid479068\charrsid6435803  }{
+\cs52\b\f1\fs22\insrsid479068\charrsid11404781 Comando Chiudi (menu File)}{\f1\insrsid479068\charrsid6435803 
+\par 
+\par Utilizzare questo comando per chiudere tutte le finestre contenenti il documento attivo. }{\f1\insrsid9380536 Teresa}{\f1\insrsid479068\charrsid6435803  chiede di salvare le modifiche al documento prima d
+i chiuderlo. Se si chiude un documento senza salvarlo, si perdono tutte le ultime modifiche. Prima di chiudere un documento senza titolo, }{\f1\insrsid9380536 Teresa}{\f1\insrsid479068\charrsid6435803  visualizza la }{
+\f1\uldb\insrsid479068\charrsid6435803 finestra di dialogo Salva con nome}{\v\f1\insrsid479068\charrsid6435803 AFX_HIDD_FILESAVE}{\f1\insrsid479068\charrsid6435803  e chiede di assegnare un nome e di salvare il documento.
+\par 
+\par \'c8 anche possibile chiudere un documento utilizzando l'icona Chiudi nella finestra del documento, come mostrato di seguito:
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\outlinelevel0\rin0\lin0\itap0\pararsid2950516 {\f1\insrsid479068\charrsid6435803 \{bml scmenu.bmp\}
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 {\f1\insrsid479068\charrsid6435803 \page }{\cs48\f1\super\insrsid479068\charrsid6435803 #{\footnote \pard\plain \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 
+\f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 #}{\insrsid479068  HID_FILE_SAVE}}K{\footnote \pard\plain \s15\ql \li0\ri0\widctlpar\faauto\rin0\lin0\itap0 
+\f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 K}{\insrsid479068  file: gestione}}}{\f1\insrsid479068\charrsid6435803  }{\cs48\f1\super\insrsid479068\charrsid6435803 ${\footnote \pard\plain 
+\s15\ql \li0\ri0\widctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 $}{\insrsid479068  comando Salva (menu File)}}}{\f1\insrsid479068\charrsid6435803  }{
+\cs52\b\f1\fs22\insrsid479068\charrsid11404781 Comando Salva (menu File)}{\f1\insrsid479068\charrsid6435803 
+\par 
+\par Utilizzare questo comando per salvare il documento attivo con lo stesso nome e nella stessa directory. Quando si salva un documento per la prima volta, }{\f1\insrsid9380536 Teresa}{\f1\insrsid479068\charrsid6435803  visualizza la finestra di dialogo}{
+\f1\uldb\insrsid479068\charrsid6435803  Salva con nome}{\v\f1\insrsid479068\charrsid6435803 AFX_HIDD_FILESAVE}{\f1\insrsid479068\charrsid6435803 , in modo che sia possibile asse
+gnare un nome al documento. Se si desidera modificare il nome e la directory di un documento esistente prima di salvarlo, scegliere il }{\f1\uldb\insrsid479068\charrsid6435803 comando Salva con nome}{\v\f1\insrsid479068\charrsid6435803 HID_FILE_SAVE_AS}{
+\f1\insrsid479068\charrsid6435803 .
+\par 
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\outlinelevel0\rin0\lin0\itap0\pararsid2950516 {\b\f1\insrsid479068\charrsid6435803 Tasti di scelta rapida
+\par }\pard \ql \fi-1080\li1440\ri0\sl240\slmult0\widctlpar\tx1440\faauto\outlinelevel0\rin0\lin1440\itap0\pararsid2950516 {\f1\insrsid479068\charrsid6435803 Barra degli strumenti:\tab \{bmc filesave.bmp\}
+\par }\pard \ql \fi-1080\li1440\ri0\sl240\slmult0\widctlpar\tx1440\faauto\rin0\lin1440\itap0 {\f1\insrsid479068\charrsid6435803 Tasti:\tab \tab \tab CTRL+S
+\par }\pard \ql \li360\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin360\itap0 {\f1\insrsid479068\charrsid6435803 
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 {\f1\insrsid479068\charrsid6435803 
+\par \page }{\cs48\f1\super\insrsid479068\charrsid6435803 #{\footnote \pard\plain \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 #}{
+\insrsid479068  HID_FILE_SAVE_AS}}K{\footnote \pard\plain \s15\ql \li0\ri0\widctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 K}{\insrsid479068  file: gestione}}}{
+\f1\insrsid479068\charrsid6435803  }{\cs48\f1\super\insrsid479068\charrsid6435803 ${\footnote \pard\plain \s15\ql \li0\ri0\widctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {
+\cs48\super\insrsid479068\charrsid479068 $}{\insrsid479068  comando Salva con nome (menu File)}}}{\cs52\b\f1\fs22\insrsid479068\charrsid11404781  Comando Salva con nome (menu File)}{\f1\insrsid479068\charrsid6435803 
+\par 
+\par Utilizzare questo comando per salvare il documento attivo e assegnargli un nome. }{\f1\insrsid9380536 Teresa}{\f1\insrsid479068\charrsid6435803  visualizza la }{\f1\uldb\insrsid479068\charrsid6435803 finestra di dialogo Salva con nome}{
+\v\f1\insrsid479068\charrsid6435803 AFX_HIDD_FILESAVE}{\f1\insrsid479068\charrsid6435803  in modo che sia possibile assegnare un nome al documento. 
+\par 
+\par Per salvare un documento con lo stesso nome e nella stessa directory, utilizzare il }{\f1\uldb\insrsid479068\charrsid6435803 comando Salva}{\v\f1\insrsid479068\charrsid6435803 HID_FILE_SAVE}{\f1\insrsid479068\charrsid6435803 .
+\par 
+\par \page }{\cs48\f1\super\insrsid479068\charrsid6435803 #{\footnote \pard\plain \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 #}{
+\insrsid479068  AFX_HIDD_FILESAVE}}}{\cs52\b\f1\fs22\insrsid479068\charrsid11404781 Finestra di dialogo Salva con nome (menu File)
+\par }{\f1\insrsid479068\charrsid6435803 
+\par Le seguenti opzioni consentono di specificare il nome e l'ubicazione del file che si intende salvare:
+\par }\pard \ql \li0\ri0\sb60\sl240\slmult0\widctlpar\faauto\outlinelevel0\rin0\lin0\itap0\pararsid2950516 {\b\f1\insrsid479068\charrsid6435803 Nome file
+\par }\pard \ql \li360\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin360\itap0 {\f1\insrsid479068\charrsid6435803 Digitare un nuovo nome di file per salvare un documento con un nome diverso. }{\f1\insrsid9380536 Teresa}{\f1\insrsid479068\charrsid6435803 
+ aggiunge l'estensione specificata nella casella Tipo file.
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 {\f1\insrsid479068\charrsid6435803 \page }{\cs48\f1\super\insrsid479068\charrsid6435803 #{\footnote \pard\plain \s15\ql \li0\ri0\widctlpar\faauto\rin0\lin0\itap0 
+\f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 #}{\insrsid479068  HID_FILE_MRU_FILE1}}}{\f1\insrsid479068\charrsid6435803  }{\cs48\f1\super\insrsid479068\charrsid6435803 K{\footnote \pard\plain 
+\s15\ql \li0\ri0\widctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 K}{\insrsid479068  file: gestione}}}{\f1\insrsid479068\charrsid6435803  }{
+\cs48\f1\super\insrsid479068\charrsid6435803 ${\footnote \pard\plain \s15\ql \li0\ri0\widctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 $}{\insrsid479068 
+ comando 1, 2, 3, 4 (menu File)}}}{\cs52\b\f1\fs22\insrsid479068\charrsid11404781  Comando 1, 2, 3, 4 (menu File)}{\f1\insrsid479068\charrsid6435803 
+\par 
+\par Utilizzare i numeri e i nomi di file elencati nella parte inferiore del menu File per aprire gli ultimi quattro documenti chiusi. Scegliere il numero corrispondente al documento che si desidera aprire.
+\par \page }{\cs48\f1\super\insrsid479068\charrsid6435803 #{\footnote \pard\plain \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 #}{
+\insrsid479068  HID_APP_EXIT}}K{\footnote \pard\plain \s15\ql \li0\ri0\widctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 K}{\insrsid479068  esci}}}{
+\f1\insrsid479068\charrsid6435803  }{\cs48\f1\super\insrsid479068\charrsid6435803 ${\footnote \pard\plain \s15\ql \li0\ri0\widctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {
+\cs48\super\insrsid479068\charrsid479068 $}{\insrsid479068  comando Esci (menu File)}}}{\cs52\b\f1\fs22\insrsid479068\charrsid11404781  Comando Esci (menu File)}{\f1\insrsid479068\charrsid6435803 
+\par 
+\par Utilizzare questo comando per terminare la sessione di }{\f1\insrsid9380536 Teresa}{\f1\insrsid479068\charrsid6435803 . \'c8 anche possibile utilizzare il comando Chiudi del menu di controllo dell'applicazione. }{\f1\insrsid9380536 Teresa}{
+\f1\insrsid479068\charrsid6435803  chiede di salvare i documenti, se questi sono stati modificati.
+\par 
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\outlinelevel0\rin0\lin0\itap0\pararsid2950516 {\b\f1\insrsid479068\charrsid6435803 Tasti di scelta rapida
+\par }\pard \ql \fi-1080\li1440\ri0\sl240\slmult0\widctlpar\tx1440\faauto\rin0\lin1440\itap0 {\f1\insrsid479068\charrsid6435803 Mouse:\tab Fare clic sul pulsante del menu di controllo dell'applicazione.
+\par \tab \{bmc appexit.bmp\}
+\par Tasti:\tab ALT+F4
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 {\f1\insrsid479068\charrsid6435803 \page }{\cs48\f1\super\insrsid479068\charrsid6435803 #{\footnote \pard\plain \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 
+\f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 #}{\insrsid479068  HID_EDIT_UNDO}}}{\cs52\b\f1\fs22\insrsid479068\charrsid11404781 Annulla (menu Modifica)}{\f1\insrsid479068\charrsid6435803 
+\par 
+\par Utilizzare questo comando per }{\f1\insrsid10780592 ripristinare la teoria precedente all\rquote ultima modifica.}{\f1\insrsid479068 
+\par }{\f1\insrsid10780592\charrsid6435803 
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\outlinelevel0\rin0\lin0\itap0\pararsid2950516 {\b\f1\insrsid479068\charrsid6435803 Tasti di scelta rapida
+\par }\pard \ql \fi-1080\li1440\ri0\sl240\slmult0\widctlpar\tx1440\faauto\outlinelevel0\rin0\lin1440\itap0\pararsid10780592 {\f1\insrsid10780592\charrsid6435803 Barra degli strumenti:\tab \{bmc }{\f1\insrsid15098419 edit}{\f1\insrsid10780592 undo}{
+\f1\insrsid10780592\charrsid6435803 .bmp\}
+\par }\pard \ql \fi-1080\li1440\ri0\sl240\slmult0\widctlpar\tx1440\faauto\rin0\lin1440\itap0\pararsid10780592 {\f1\insrsid10780592 Tasti:\tab \tab \tab CTRL+Z}{\f1\insrsid479068\charrsid6435803 \tab 
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 {\f1\insrsid479068\charrsid6435803 
+\par \page }{\cs48\f1\super\insrsid479068\charrsid6435803 #{\footnote \pard\plain \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 #}{
+\insrsid479068  HID_EDIT_CUT}}}{\cs52\b\f1\fs22\insrsid479068\charrsid11404781 Comando Taglia (menu Modifica)}{\f1\insrsid479068\charrsid6435803 
+\par 
+\par Utilizzare questo comando per rimuovere }{\f1\insrsid11404781 le coppie di termini attualmente selezionate dal documento e collocarle}{\f1\insrsid479068\charrsid6435803  negli Appunti. Questo comando non \'e8 disponibile se non sono stat}{
+\f1\insrsid11404781 e selezionate delle coppie}{\f1\insrsid479068\charrsid6435803 .
+\par 
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\outlinelevel0\rin0\lin0\itap0\pararsid2950516 {\f1\insrsid479068\charrsid6435803 I dati posti negli Appunti con l'operazione Taglia sostituiscono quelli contenuti precedentemente.
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 {\f1\insrsid479068\charrsid6435803 
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\outlinelevel0\rin0\lin0\itap0\pararsid2950516 {\b\f1\insrsid479068\charrsid6435803 Tasti di scelta rapida
+\par }\pard \ql \fi-1080\li1440\ri0\sl240\slmult0\widctlpar\tx1440\faauto\outlinelevel0\rin0\lin1440\itap0\pararsid2950516 {\f1\insrsid479068\charrsid6435803 Barra degli strumenti:\tab \{bmc editcut.bmp\}
+\par }\pard \ql \fi-1080\li1440\ri0\sl240\slmult0\widctlpar\tx1440\faauto\rin0\lin1440\itap0 {\f1\insrsid479068\charrsid6435803 Tasti:\tab \tab \tab CTRL+X
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 {\f1\insrsid479068\charrsid6435803 
+\par \page }{\cs48\f1\super\insrsid479068\charrsid6435803 #{\footnote \pard\plain \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 #}{
+\insrsid479068  HID_EDIT_COPY}}}{\cs52\b\f1\fs22\insrsid479068\charrsid11404781 Comando Copia (menu Modifica)}{\f1\insrsid479068\charrsid6435803 
+\par 
+\par Utilizzare questo comando per copiare negli Appunti }{\f1\insrsid11404781 le}{\f1\insrsid479068\charrsid6435803  }{\f1\insrsid11404781 coppie di termini selezionate}{\f1\insrsid479068\charrsid6435803 . Questo comando non \'e8}{\f1\insrsid11404781 
+ disponibile se non vi sono coppie selezionate}{\f1\insrsid479068\charrsid6435803 .
+\par 
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\outlinelevel0\rin0\lin0\itap0\pararsid2950516 {\f1\insrsid479068\charrsid6435803 La copia dei dati negli Appunti sostituisce i dati contenuti precedentemente.
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 {\f1\insrsid479068\charrsid6435803 
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\outlinelevel0\rin0\lin0\itap0\pararsid2950516 {\b\f1\insrsid479068\charrsid6435803 Tasti di scelta rapida
+\par }\pard \ql \fi-1080\li1440\ri0\sl240\slmult0\widctlpar\tx1440\faauto\outlinelevel0\rin0\lin1440\itap0\pararsid2950516 {\f1\insrsid479068\charrsid6435803 Barra degli strumenti:\tab \{bmc editcopy.bmp\}
+\par }\pard \ql \fi-1080\li1440\ri0\sl240\slmult0\widctlpar\tx1440\faauto\rin0\lin1440\itap0 {\f1\insrsid479068\charrsid6435803 Tasti:\tab \tab \tab CTRL+C
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 {\f1\insrsid479068\charrsid6435803 
+\par \page }{\cs48\f1\super\insrsid479068\charrsid6435803 #{\footnote \pard\plain \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 #}{
+\insrsid479068  HID_EDIT_PASTE}}}{\cs52\b\f1\fs22\insrsid479068\charrsid11404781 Comando Incolla (menu Modifica)}{\f1\insrsid479068\charrsid6435803 
+\par 
+\par Utilizzare questo comando per inserire una copia del contenuto degli Appunti, }{\f1\insrsid11404781 in coda alla lista delle coppie}{\f1\insrsid479068\charrsid6435803 . Questo comando non \'e8 disponibile se negli Appunti non sono presenti dei dati.}{
+\f1\insrsid11404781  Le coppie non vengono inserite se sono gi}{\f1\lang1040\langfe1040\langnp1040\insrsid11404781 \'e0 presenti }{\f1\insrsid11404781 nel documento.}{\f1\lang1040\langfe1040\langnp1040\insrsid479068\charrsid11404781 
+\par }{\f1\insrsid479068\charrsid6435803 
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\outlinelevel0\rin0\lin0\itap0\pararsid2950516 {\b\f1\insrsid479068\charrsid6435803 Tasti di scelta rapida
+\par }\pard \ql \fi-1080\li1440\ri0\sl240\slmult0\widctlpar\tx1440\faauto\outlinelevel0\rin0\lin1440\itap0\pararsid2950516 {\f1\insrsid479068\charrsid6435803 Barra degli strumenti:\tab \{bmc editpast.bmp\}
+\par }\pard \ql \fi-1080\li1440\ri0\sl240\slmult0\widctlpar\tx1440\faauto\rin0\lin1440\itap0 {\f1\insrsid479068\charrsid6435803 Tasti:\tab \tab \tab CTRL+V
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 {\f1\insrsid479068\charrsid6435803 
+\par \page }{\cs48\f1\super\insrsid479068\charrsid6435803 #{\footnote \pard\plain \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 #}{
+\insrsid479068  HID_VIEW_TOOLBAR}}K{\footnote \pard\plain \s15\ql \li0\ri0\widctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 K}{\insrsid479068  barra degli strumenti}}}{
+\f1\insrsid479068\charrsid6435803  }{\cs48\f1\super\insrsid479068\charrsid6435803 ${\footnote \pard\plain \s15\ql \li0\ri0\widctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {
+\cs48\super\insrsid479068\charrsid479068 $}{\insrsid479068  comando Barra degli strumenti (menu Visualizza)}}}{\f1\insrsid479068\charrsid6435803  }{\cs52\b\f1\fs22\insrsid479068\charrsid11404781 Comando Barra degli strumenti (menu Visualizza)
+\par }{\f1\insrsid479068\charrsid6435803 
+\par Utilizzare questo comando per visualizzare e nascondere la barra degli strumenti, che comprende i pulsanti per alcuni dei comandi pi\'f9 comuni in }{\f1\insrsid10780592 Teresa}{\f1\insrsid479068\charrsid6435803 , come Apri File . Un segno di spunta appare
+ accanto alla voce di menu quando \'e8 visualizzata la barra degli strumenti.
+\par 
+\par Consultare }{\f1\uldb\insrsid479068\charrsid6435803 Barra degli strumenti}{\v\f1\insrsid479068\charrsid6435803 AFX_HIDW_TOOLBAR}{\f1\insrsid479068\charrsid6435803  per ottenere informazioni sull'uso della barra degli strumenti.
+\par \page }{\cs48\f1\super\insrsid479068\charrsid6435803 #{\footnote \pard\plain \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 #}{
+\insrsid479068  AFX_HIDW_TOOLBAR}}K{\footnote \pard\plain \s15\ql \li0\ri0\widctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 K}{\insrsid479068  barra degli strumenti}}}{
+\f1\insrsid479068\charrsid6435803  }{\cs48\f1\super\insrsid479068\charrsid6435803 ${\footnote \pard\plain \s15\ql \li0\ri0\widctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {
+\cs48\super\insrsid479068\charrsid479068 $}{\insrsid479068  barra degli strumenti}}}{\cs52\b\f1\fs22\insrsid479068\charrsid11404781  Barra degli strumenti}{\f1\insrsid479068\charrsid6435803 
+\par \{bml hlptbar.bmp\}
+\par 
+\par La barra degli strumenti \'e8 visualizzata nella parte superiore della finestra dell'applicazione, sotto alla barra dei menu. La barra degli strumenti consente di accedere rapidamente con il mouse a molti strumenti utilizzati in }{\f1\insrsid10780592 
+Teresa}{\f1\insrsid479068\charrsid6435803 ,
+\par 
+\par Per nascondere o visualizzare la barra degli strumenti, scegliere Barra degli strumenti dal menu Visualizza (ALT, V, T).
+\par 
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\brdrb\brdrs\brdrw15\brsp20 \tx1080\faauto\rin0\lin0\itap0 {\b\f1\insrsid479068\charrsid6435803 Fare clic su\tab per}{\f1\insrsid479068\charrsid6435803 
+\par }\pard \ql \fi-1080\li1080\ri0\sl240\slmult0\widctlpar\tx1080\faauto\rin0\lin1080\itap0 {\f1\insrsid479068\charrsid6435803 \{bmc filenew.bmp\}\tab Apri un nuovo documento.
+\par 
+\par }\pard \ql \fi-2160\li2160\ri0\sl240\slmult0\widctlpar\tx1080\faauto\rin0\lin2160\itap0 {\f1\insrsid479068\charrsid6435803 \{bmc fileopen.bmp\}\tab Apri un documento esistente. }{\f1\insrsid10780592 Teresa}{\f1\insrsid479068\charrsid6435803 
+ visualizza la finestra di dialogo Apri, in cui \'e8}{\f1\insrsid12201901  }{\f1\insrsid479068\charrsid6435803 possibile trovare e aprire il file desiderato.
+\par }\pard \ql \fi-1080\li1080\ri0\sl240\slmult0\widctlpar\tx1080\faauto\rin0\lin1080\itap0 {\f1\insrsid479068\charrsid6435803 
+\par }\pard \ql \fi-2160\li2160\ri0\sl240\slmult0\widctlpar\tx1080\faauto\rin0\lin2160\itap0 {\f1\insrsid479068\charrsid6435803 \{bmc filesave.bmp\}\tab Salva il documento o il modello attivo con il nome attuale. Se non si \'e8 assegnato un nome al documento, 
+}{\f1\insrsid10780592 Teresa}{\f1\insrsid479068\charrsid6435803  visualizza la finestra di dialogo Salva con nome.
+\par }\pard \ql \fi-1080\li1080\ri0\sl240\slmult0\widctlpar\tx1080\faauto\rin0\lin1080\itap0 {\f1\insrsid479068\charrsid6435803 
+\par \{bmc fileprnt.bmp\}\tab Stampa }{\f1\insrsid3350148 il documento attivo (funzionalit\'e0 non disponibile in questa versione).}{\f1\insrsid479068\charrsid6435803 
+\par 
+\par \{bmc editcut.bmp\}\tab Rimuove dati selezionati dal documento e li memorizza negli Appunti.
+\par 
+\par \{bmc editcopy.bmp\}\tab Copia la selezione negli Appunti.
+\par 
+\par \{bmc editpast.bmp\}\tab Inserisce il contenuto degli Appunti }{\f1\insrsid7031974 in coda alla lista di coppie}{\f1\insrsid479068\charrsid6435803 .}{\f1\insrsid7031974  Non inserisce duplicati.}{\f1\insrsid479068\charrsid6435803 
+\par }{\f1\insrsid479068 
+\par }{\f1\insrsid3350148\charrsid6435803 \{bmc }{\f1\insrsid3350148 inverti}{\f1\insrsid3350148\charrsid6435803 .bmp\}}{\f1\insrsid3350148 \tab Inverte il termine di sinistra con quello di destra per le coppie selezionate.
+\par 
+\par \{bmc elimina}{\f1\insrsid3350148\charrsid6435803 .bmp\}}{\f1\insrsid3350148 \tab Elimina dal documento le coppie selezionate.
+\par 
+\par \{bmc eliminatutto}{\f1\insrsid3350148\charrsid6435803 .bmp\}}{\f1\insrsid3350148 \tab Elimina dal documento tutte le coppie.
+\par }{\f1\insrsid3350148\charrsid6435803 
+\par }{\f1\insrsid6492927 \{bmc }{\f1\insrsid3350148 edit}{\f1\insrsid479068\charrsid6435803 undo.bmp\}\tab Inverte l'ultima modifica. Nota: non \'e8 possibile annullare alcune azioni.}{\f1\insrsid479068 
+\par }{\f1\insrsid3350148 
+\par \{bmc order}{\f1\insrsid3350148\charrsid6435803 .bmp\}}{\f1\insrsid3350148 \tab Consente di definire }{\f1\insrsid6967628 una relazione d'ordine per i termini della teoria.}{\f1\insrsid3350148 
+\par }{\f1\insrsid6967628 
+\par \{bmc proprieta}{\f1\insrsid6967628\charrsid6435803 .bmp\}}{\f1\insrsid6967628 \tab Visualizza informazioni sulla coppia selezionata e per tutta la teoria.
+\par 
+\par \{bmc ordertest}{\f1\insrsid6967628\charrsid6435803 .bmp\}}{\f1\insrsid6967628 \tab Confronta i termini destro e sinistro di ogni coppia con LPO.
+\par 
+\par \{bmc unificazione}{\f1\insrsid6967628\charrsid6435803 .bmp\}}{\f1\insrsid6967628 \tab Risolve il problema dell'unificazione per tutte le coppie.
+\par 
+\par \{bmc coppiecritiche}{\f1\insrsid6967628\charrsid6435803 .bmp\}}{\f1\insrsid6967628 \tab Trova le coppie critiche.
+\par 
+\par \{bmc huet}{\f1\insrsid6967628\charrsid6435803 .bmp\}}{\f1\insrsid6967628 \tab Completa la teoria con la procedura di Huet.
+\par 
+\par \{bmc parola}{\f1\insrsid6967628\charrsid6435803 .bmp\}}{\f1\insrsid6967628 \tab Consente di risolvere il problema della parola.
+\par 
+\par \{bmc output}{\f1\insrsid6967628\charrsid6435803 .bmp\}}{\f1\insrsid6967628 \tab Mostra/nasconde la finestra di output.
+\par 
+\par \{bmc }{\f1\insrsid6967628\charrsid6967628 outputclear.bmp}{\f1\insrsid6967628\charrsid6435803 \}}{\f1\insrsid6967628 \tab Cancella il testo contenuto nella finestra di output.
+\par 
+\par \{bmc outputcopy}{\f1\insrsid6967628\charrsid6967628 .bmp}{\f1\insrsid6967628\charrsid6435803 \}}{\f1\insrsid6967628 \tab Copia tutto il testo contenuto nella finestra di output e lo pone negli Appunti.
+\par }{\f1\insrsid6967628\charrsid6967628 
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\tx1080\faauto\rin0\lin0\itap0\pararsid10780592 {\f1\insrsid479068\charrsid6435803 
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 {\f1\insrsid479068\charrsid6435803 \page }{\cs48\f1\super\insrsid479068\charrsid6435803 #{\footnote \pard\plain \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 
+\f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 #}{\insrsid479068  HID_VIEW_STATUS_BAR}}K{\footnote \pard\plain \s15\ql \li0\ri0\widctlpar\faauto\rin0\lin0\itap0 
+\f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 K}{\insrsid479068  barra di stato}}}{\f1\insrsid479068\charrsid6435803  }{\cs48\f1\super\insrsid479068\charrsid6435803 ${\footnote \pard\plain 
+\ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 $}{\insrsid479068  comando Barra di stato (menu Visualizza)}}}{
+\cs52\b\f1\fs22\insrsid479068\charrsid13908376 Comando Barra di stato (menu Visualizza)}{\b\f1\insrsid479068\charrsid6435803 
+\par }{\f1\insrsid479068\charrsid6435803 
+\par Utilizzare questo comando per visualizza
+re e nascondere la barra di stato, che descrive l'azione da eseguire tramite la voce di menu selezionata (o il pulsante della barra degli strumenti) e lo stato di blocco della tastiera. Un segno di spunta appare accanto alla voce di menu quando la barra d
+i stato \'e8 visualizzata.
+\par 
+\par Consultare }{\f1\uldb\insrsid479068\charrsid6435803 Barra di stato}{\v\f1\insrsid479068\charrsid6435803 AFX_HIDW_STATUS_BAR}{\f1\insrsid479068\charrsid6435803  per ottenere informazioni sull'uso della barra di stato.
+\par \page }{\cs48\f1\super\insrsid479068\charrsid6435803 #{\footnote \pard\plain \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 #}{
+\insrsid479068  AFX_HIDW_STATUS_BAR}}K{\footnote \pard\plain \s15\ql \li0\ri0\widctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 K}{\insrsid479068  barra di stato}}}{
+\f1\insrsid479068\charrsid6435803  }{\cs48\f1\super\insrsid479068\charrsid6435803 ${\footnote \pard\plain \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {
+\cs48\super\insrsid479068\charrsid479068 $}{\insrsid479068  barra di stato}}}{\cs52\b\f1\fs22\insrsid479068\charrsid13908376 Barra di stato}{\f1\insrsid479068\charrsid6435803 
+\par \{bml hlpsbar.bmp\}
+\par 
+\par La barra di stato \'e8 visualizzata nella parte inferiore della finestra }{\f1\insrsid9380536 Teresa}{\f1\insrsid479068\charrsid6435803 . Per visualizzare o nascondere la barra di stato, utilizzare il comando Barra di stato nel menu Visualizza.
+\par 
+\par L'area sinistra della barra di stato descrive le azioni delle voci di menu quando si utilizzano i tasti d
+i direzione per spostarsi tra i menu. Quest'area visualizza inoltre i messaggi che descrivono le azioni dei pulsanti della barra degli strumenti, prima di rilasciare il pulsante del mouse. Se, dopo aver visualizzato la descrizione del pulsante della barra
+ degli strumenti, non si desidera eseguire il comando, rilasciare il pulsante del mouse mentre il puntatore si trova fuori dal pulsante della barra degli strumenti.
+\par 
+\par Le aree a destra della barra di stato indicano se i seguenti tasti sono bloccati:
+\par 
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\tx1440\faauto\rin0\lin0\itap0 {\b\f1\insrsid479068\charrsid6435803 Indicatore\tab Descrizione}{\f1\insrsid479068\charrsid6435803 
+\par }\pard \ql \fi-1440\li1440\ri0\sa120\sl240\slmult0\widctlpar\tx1440\faauto\rin0\lin1440\itap0 {\f1\insrsid479068\charrsid6435803 MA\tab Il tasto Bloc Maiusc \'e8 bloccato.
+\par NUM\tab Il tasto Bloc Num \'e8 bloccato.
+\par BS\tab Il tasto BS \'e8 bloccato.
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 {\f1\insrsid479068\charrsid6435803 \page }{\cs48\f1\super\insrsid479068\charrsid6435803 #{\footnote \pard\plain \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 
+\f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 #}{\insrsid479068  HID_WINDOW_NEW}}}{\cs52\b\f1\fs22\insrsid479068\charrsid13908376 Comando Nuova (menu Finestra)}{\f1\insrsid479068\charrsid6435803 
+
+\par 
+\par Utilizzare questo comando per aprire una nuova finestra con lo stesso contenuto della finestra attiva. \'c8 possibile aprire pi\'f9
+ finestre di documento per visualizzare contemporaneamente diverse parti o visualizzazioni di un documento. Se si modifica il conte
+nuto in una finestra, tutte le altre finestre contenenti lo stesso documento rispecchieranno tali modifiche. Quando si apre una nuova finestra, questa diventa la finestra attiva ed \'e8 visualizzata in primo piano rispetto alle altre finestre aperte.
+
+\par 
+\par \page }{\cs48\f1\super\insrsid479068\charrsid6435803 #{\footnote \pard\plain \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 #}{
+\insrsid479068  HID_WINDOW_CASCADE}}}{\cs52\b\f1\fs22\insrsid479068\charrsid13908376 Comando Sovrapposte (menu Finestra)}{\f1\insrsid479068\charrsid6435803 
+\par 
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\outlinelevel0\rin0\lin0\itap0\pararsid2950516 {\f1\insrsid479068\charrsid6435803 Utilizzare questo comando per sovrapporre pi\'f9 finestre aperte.
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 {\f1\insrsid479068\charrsid6435803 
+\par \page }{\cs48\f1\super\insrsid479068\charrsid6435803 #{\footnote \pard\plain \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 #}{
+\insrsid479068  HID_WINDOW_TILE}}}{\cs52\b\f1\fs22\insrsid479068\charrsid13908376 Comando Affianca (menu Finestra)
+\par }{\f1\insrsid479068\charrsid6435803 
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\outlinelevel0\rin0\lin0\itap0\pararsid2950516 {\f1\insrsid479068\charrsid6435803 Utilizzare questo comando per affiancare, senza sovrapporle, pi\'f9 finestre aperte.
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 {\f1\insrsid479068\charrsid6435803 
+\par 
+\par \page }{\cs48\f1\super\insrsid479068\charrsid6435803 #{\footnote \pard\plain \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 #}{
+\insrsid479068  HID_WINDOW_TILE_HORZ}}}{\cs52\b\f1\fs22\insrsid479068\charrsid13908376 Comando Affianca orizzontalmente (menu Finestra)
+\par }{\f1\insrsid479068\charrsid6435803 
+\par Utilizzare questo comando per disporre verticalmente, senza sovrapporle, pi\'f9 finestre aperte.
+\par \page }{\cs48\f1\super\insrsid479068\charrsid6435803 #{\footnote \pard\plain \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 #}{
+\insrsid479068  HID_WINDOW_TILE_VERT}}}{\cs52\b\f1\fs22\insrsid479068\charrsid13908376 Comando Affianca verticalmente (menu Finestra)}{\f1\insrsid479068\charrsid6435803 
+\par 
+\par Utilizzare questo comando per affiancare pi\'f9 finestre aperte.
+\par \page }{\cs48\f1\super\insrsid479068\charrsid6435803 #{\footnote \pard\plain \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 #}{
+\insrsid479068  HID_WINDOW_ARRANGE}}}{\cs52\b\f1\fs22\insrsid479068\charrsid13908376 Comando Finestra Disponi icone
+\par }{\f1\insrsid479068\charrsid6435803 
+\par Utilizzare questo comando per disporre le finestre ridotte ad icone nella parte inferiore della finestra principale. Se \'e8 presente una fine
+stra di un documento aperto nella parte inferiore della finestra principale, alcune o tutte le icone potrebbero non essere visibili, se sono nascoste dalla finestra di questo documento.\page }{\cs48\f1\super\insrsid479068\charrsid6435803 #{\footnote 
+\pard\plain \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 #}{\insrsid479068  HID_WINDOW_ALL}}}{
+\cs52\b\f1\fs22\insrsid479068\charrsid13908376 Comando 1, 2, ... (menu Finestra)}{\f1\insrsid479068\charrsid6435803 
+\par 
+\par }{\f1\insrsid9380536 Teresa}{\f1\insrsid479068\charrsid6435803  visualizza
+ un elenco di finestre dei documenti attualmente aperti nella parte inferiore del menu Finestra. Un segno di spunta appare accanto al nome del documento della finestra attiva. Scegliere un documento per rendere attiva la relativa finestra. 
+\par \page }{\cs48\f1\super\insrsid479068\charrsid6435803 #{\footnote \pard\plain \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 #}{
+\insrsid479068  HID_HELP_INDEX}}}{\cs52\b\f1\fs22\insrsid479068\charrsid13908376 Comando Indice (menu ?)}{\b\f1\insrsid479068\charrsid6435803 
+\par }{\f1\insrsid479068\charrsid6435803 
+\par Utilizzare questo comando per visualizzare la schermata iniziale della Guida. Da questa schermata \'e8 possibile passare alle istruzioni dettagliate per l'utilizzo di }{\f1\insrsid9380536 Teresa}{\f1\insrsid479068\charrsid6435803 
+ ed a diversi tipi di informazioni di riferimento. 
+\par 
+\par Dopo aver aperto la Guida, \'e8 possibile fare clic sul pulsante Sommario ogni volta che si desidera ritornare alla schermata iniziale.
+\par 
+\par \page }{\cs48\f1\super\insrsid479068\charrsid6435803 #{\footnote \pard\plain \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 #}{
+\insrsid479068  HID_HELP_USING}}}{\cs52\b\f1\fs22\insrsid479068\charrsid13908376 Comando Utilizzo Guida (menu ?)
+\par }{\f1\insrsid479068\charrsid6435803 
+\par Utilizzare questo comando per ottenere istruzioni sull'uso della Guida.
+\par \page }{\cs48\f1\super\insrsid479068\charrsid6435803 #{\footnote \pard\plain \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 #}{
+\insrsid479068  HID_APP_ABOUT}}}{\cs52\b\f1\fs22\insrsid479068\charrsid13908376 Comando Informazioni su (menu ?)}{\b\f1\insrsid479068\charrsid6435803 
+\par }{\f1\insrsid479068\charrsid6435803 
+\par Utilizzare questo comando per visualizzare la nota di copyright e il numero di versione di }{\f1\insrsid9380536 Teresa}{\f1\insrsid479068\charrsid6435803 .
+\par \page }{\cs48\f1\super\insrsid479068\charrsid6435803 #{\footnote \pard\plain \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 #}{
+\insrsid479068  HID_CONTEXT_HELP}}${\footnote \pard\plain \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 $}{\insrsid479068 
+ Comando ? Utilizzo Guida}}}{\cs52\b\f1\fs22\insrsid479068\charrsid13908376 Comando Guida contestuale}{\b\f1\insrsid479068\charrsid6435803 
+\par }{\f1\insrsid479068\charrsid6435803 \{bml curhelp.bmp\}
+\par 
+\par Utilizzare il comando Guida contestuale per ottenere informazioni su alcune parti di }{\f1\insrsid9380536 Teresa}{\f1\insrsid479068\charrsid6435803 
+. Quando si sceglie il pulsante Guida contestuale della barra degli strumenti, il puntatore del mouse assumer\'e0 la forma di una freccia e di un punto interrogativo. Fare clic sul punto desiderato all'interno della finestra di }{\f1\insrsid9380536 Teresa
+}{\f1\insrsid479068\charrsid6435803  o su di un altro pulsante della barra degli strumenti. Verr\'e0 visualizzato il relativo argomento della Guida.
+\par 
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\outlinelevel0\rin0\lin0\itap0\pararsid2950516 {\b\f1\insrsid479068\charrsid6435803 Tasto di scelta rapida
+\par }\pard \ql \fi-1080\li1440\ri0\sl240\slmult0\widctlpar\tx1440\faauto\outlinelevel0\rin0\lin1440\itap0\pararsid2950516 {\f1\insrsid479068\charrsid6435803 Tasti:\tab MAIUSC+F1
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 {\f1\insrsid479068\charrsid6435803 \page }{\cs48\f1\super\insrsid479068\charrsid6435803 #{\footnote \pard\plain \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 
+\f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 #}{\insrsid479068  HID_HT_CAPTION}}}{\cs52\b\f1\fs22\insrsid479068\charrsid13908376 Barra del titolo}{\f1\insrsid479068\charrsid6435803 
+\par 
+\par }\pard\plain \s41\ql \fi-360\li360\ri0\widctlpar\tx360\faauto\rin0\lin360\itap0 \f36\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\f1\insrsid479068\charrsid6435803 La Barra del titolo \'e8
+ situata nella parte superiore di una finestra. Essa contiene il nome dell'applicazione e del documento.
+\par }\pard\plain \ql \li0\ri0\widctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\f1\insrsid479068\charrsid6435803 
+\par }\pard\plain \s41\ql \fi-360\li360\ri0\widctlpar\tx360\faauto\rin0\lin360\itap0 \f36\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\f1\insrsid479068\charrsid6435803 Per spostare la finestra, trascinare la barra del titolo. Nota: \'e8
+ anche possibile spostare le finestre di dialogo trascinando le relative barre del titolo.
+\par }\pard\plain \ql \li0\ri0\widctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\f1\insrsid479068\charrsid6435803 
+\par }\pard \ql \fi-360\li360\ri0\widctlpar\tx360\faauto\rin0\lin360\itap0 {\f1\insrsid479068\charrsid6435803 Una barra del titolo pu\'f2 contenere i seguenti elementi:
+\par }\pard\plain \s40\ql \fi-360\li360\ri0\sb40\sa40\widctlpar\tx360\faauto\rin0\lin360\itap0 \f36\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\f1\insrsid479068\charrsid6435803 \{bmc bullet.bmp\}\tab 
+Pulsante del menu di controllo dell'applicazione
+\par \{bmc bullet.bmp\}\tab Pulsante del menu di controllo del documento
+\par \{bmc bullet.bmp\}\tab Pulsante di ingrandimento
+\par \{bmc bullet.bmp\}\tab Pulsante di riduzione a icona
+\par \{bmc bullet.bmp\}\tab Nome dell'applicazione
+\par \{bmc bullet.bmp\}\tab Nome del documento
+\par \{bmc bullet.bmp\}\tab Pulsante di ripristino
+\par }\pard\plain \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\f1\insrsid479068\charrsid6435803 \page }{\cs48\f1\super\insrsid479068\charrsid6435803 #{\footnote \pard\plain 
+\ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 #}{\insrsid479068  HID_SC_SIZE}}}{\cs52\b\f1\fs22\insrsid479068\charrsid13908376 
+Comando Dimensione (menu Sistema)}{\f1\insrsid479068\charrsid6435803 
+\par 
+\par Utilizzare questo comando per visualizzare una freccia a quattro punte, per ridimensionare la finestra attiva con i tasti di direzione.
+\par \{bml curarw4.bmp\}
+\par 
+\par Quando il puntatore assume la forma di una freccia a quattro punte:
+\par }\pard \ql \fi-360\li360\ri0\sb60\sl240\slmult0\widctlpar\faauto\rin0\lin360\itap0 {\f1\insrsid479068\charrsid6435803 1.\tab Premere uno dei tasti di DIREZIONE (tasto freccia a sinistra, a destra, su, o gi\'f9
+) per spostare il puntatore sul bordo che si desidera spostare. 
+\par 2.\tab Premere un tasto di DIREZIONE per spostare il bordo.
+\par 3.\tab Premere INVIO quando la finestra \'e8 della dimensione desiderata.
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 {\f1\insrsid479068\charrsid6435803 
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\outlinelevel0\rin0\lin0\itap0\pararsid2950516 {\f1\insrsid479068\charrsid6435803 Nota: questo comando non \'e8 disponibile se si ingrandisce la finestra.
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 {\f1\insrsid479068\charrsid6435803 
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\outlinelevel0\rin0\lin0\itap0\pararsid2950516 {\b\f1\insrsid479068\charrsid6435803 Tasto di scelta rapida
+\par }\pard \ql \fi-1080\li1440\ri0\sl240\slmult0\widctlpar\tx1440\faauto\rin0\lin1440\itap0 {\f1\insrsid479068\charrsid6435803 Mouse:\tab Trascinare le barre di dimensione in corrispondenza degli angoli o dei bordi della finestra.
+\par }\pard \ql \li360\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin360\itap0 {\f1\insrsid479068\charrsid6435803 
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 {\f1\insrsid479068\charrsid6435803 \page }{\cs48\f1\super\insrsid479068\charrsid6435803 #{\footnote \pard\plain \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 
+\f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 #}{\insrsid479068  HID_SC_MOVE}}}{\cs52\b\f1\fs22\insrsid479068\charrsid13908376 Comando Sposta (menu di controllo)}{\b\f1\insrsid479068\charrsid6435803 
+
+\par }{\f1\insrsid479068\charrsid6435803 
+\par Utilizzare questo comando per visualizzare una freccia a quattro punte, per spostare la finestra o la finestra di dialogo attiva con i tasti di direzione.
+\par \{bmc curarw4.bmp\}
+\par 
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\outlinelevel0\rin0\lin0\itap0\pararsid2950516 {\f1\insrsid479068\charrsid6435803 Nota: questo comando non \'e8 disponibile se si ingrandisce la finestra.
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 {\f1\insrsid479068\charrsid6435803 
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\outlinelevel0\rin0\lin0\itap0\pararsid2950516 {\b\f1\insrsid479068\charrsid6435803 Tasto di scelta rapida
+\par }\pard \ql \fi-1080\li1440\ri0\sl240\slmult0\widctlpar\tx1440\faauto\outlinelevel0\rin0\lin1440\itap0\pararsid2950516 {\f1\insrsid479068\charrsid6435803 Tasti:\tab CTRL+F7
+\par }\pard \ql \fi-1080\li1440\ri0\sl240\slmult0\widctlpar\tx1440\faauto\rin0\lin1440\itap0 {\f1\insrsid479068\charrsid6435803 
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\tx1440\faauto\rin0\lin0\itap0 {\f1\insrsid479068\charrsid6435803 \page }{\cs48\f1\super\insrsid479068\charrsid6435803 #{\footnote \pard\plain \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 
+\f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 #}{\insrsid479068  HID_SC_MINIMIZE}}${\footnote \pard\plain \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 
+\f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 $}{\insrsid479068  comando Riduci ad icona (menu di controllo dell'applicazione)}}}{\cs52\b\f1\fs22\insrsid479068\charrsid13908376 
+Comando Riduci ad icona (menu di controllo dell'applicazione)}{\b\f1\insrsid479068\charrsid6435803 
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 {\f1\insrsid479068\charrsid6435803 
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\outlinelevel0\rin0\lin0\itap0\pararsid2950516 {\f1\insrsid479068\charrsid6435803 Utilizzare questo comando per ridurre la finestra }{\f1\insrsid9380536 Teresa}{\f1\insrsid479068\charrsid6435803  ad icona.
+
+\par }\pard \ql \fi-360\li360\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin360\itap0 {\b\f1\insrsid479068\charrsid6435803 
+\par }\pard \ql \fi-360\li360\ri0\sl240\slmult0\widctlpar\faauto\outlinelevel0\rin0\lin360\itap0\pararsid2950516 {\b\f1\insrsid479068\charrsid6435803 Tasto di scelta rapida}{\f1\insrsid479068\charrsid6435803 
+\par }\pard \ql \fi-1080\li1440\ri0\sl240\slmult0\widctlpar\tx1440\faauto\rin0\lin1440\itap0 {\f1\insrsid479068\charrsid6435803 Mouse:\tab Fare clic sul pulsante di riduzione ad icona \{bmc scmin.bmp\} nella barra del titolo.
+\par Tasti:\tab ALT+F9
+\par }\pard \ql \fi-360\li1080\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin1080\itap0 {\f1\insrsid479068\charrsid6435803 
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 {\f1\insrsid479068\charrsid6435803 \page }{\cs48\f1\super\insrsid479068\charrsid6435803 #{\footnote \pard\plain \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 
+\f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 #}{\insrsid479068  HID_SC_MAXIMIZE}}}{\cs52\b\f1\fs22\insrsid479068\charrsid13908376 Comando Ingrandisci (menu Sistema)}{
+\b\f1\insrsid479068\charrsid6435803 
+\par }{\f1\insrsid479068\charrsid6435803 
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\outlinelevel0\rin0\lin0\itap0\pararsid2950516 {\f1\insrsid479068\charrsid6435803 Utilizzare questo comando per ingrandire finestra attiva fino a riempire tutto lo spazio disponibile.
+\par }\pard \ql \fi-360\li360\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin360\itap0 {\b\f1\insrsid479068\charrsid6435803 
+\par }\pard \ql \fi-360\li360\ri0\sl240\slmult0\widctlpar\faauto\outlinelevel0\rin0\lin360\itap0\pararsid2950516 {\b\f1\insrsid479068\charrsid6435803 Tasto di scelta rapida}{\f1\insrsid479068\charrsid6435803 
+\par }\pard \ql \fi-1080\li1440\ri0\sl240\slmult0\widctlpar\tx1440\faauto\rin0\lin1440\itap0 {\f1\insrsid479068\charrsid6435803 Mouse:\tab Fare clic sul pulsante di ingrandimento \{bmc scmax.bmp\}
+ nella barra del titolo, o fare doppio clic sulla barra del titolo.
+\par Tasti:\tab CTRL+F10 ingrandisce una finestra di documento.
+\par }\pard \ql \fi-360\li1080\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin1080\itap0 {\f1\insrsid479068\charrsid6435803 
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 {\f1\insrsid479068\charrsid6435803 \page }{\cs48\f1\super\insrsid479068\charrsid6435803 #{\footnote \pard\plain \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 
+\f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 #}{\insrsid479068  HID_SC_NEXTWINDOW}}}{\cs52\b\f1\fs22\insrsid479068\charrsid13908376 Comando Finestra successiva (menu di controllo del documento)}{
+\b\f1\insrsid479068\charrsid6435803 
+\par }{\f1\insrsid479068\charrsid6435803 
+\par Utilizzare questo comando per passare alla successiva finestra aperta del documento. }{\f1\insrsid9380536 Teresa}{\f1\insrsid479068\charrsid6435803  determina la finestra successiva in base all'ordine in cui le finestre sono state aperte.
+\par 
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\outlinelevel0\rin0\lin0\itap0\pararsid2950516 {\b\f1\insrsid479068\charrsid6435803 Tasto di scelta rapida
+\par }\pard \ql \fi-1080\li1440\ri0\sl240\slmult0\widctlpar\tx1440\faauto\outlinelevel0\rin0\lin1440\itap0\pararsid2950516 {\f1\insrsid479068\charrsid6435803 Tasti:\tab CTRL+F6
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 {\f1\insrsid479068\charrsid6435803 
+\par \page }{\cs48\f1\super\insrsid479068\charrsid6435803 #{\footnote \pard\plain \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 #}{
+\insrsid479068  HID_SC_PREVWINDOW}}}{\cs52\b\f1\fs22\insrsid479068\charrsid13908376 Comando Finestra precedente (menu di controllo del documento)}{\b\f1\insrsid479068\charrsid6435803 
+\par }{\f1\insrsid479068\charrsid6435803 
+\par Utilizzare questo comando per passare alla precedente finestra aperta del documento. }{\f1\insrsid9380536 Teresa}{\f1\insrsid479068\charrsid6435803  determina la finestra precedente in base all'ordine in cui le finestre sono state aperte.
+\par 
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\outlinelevel0\rin0\lin0\itap0\pararsid2950516 {\b\f1\insrsid479068\charrsid6435803 Tasto di scelta rapida
+\par }\pard \ql \fi-1080\li1440\ri0\sl240\slmult0\widctlpar\tx1440\faauto\outlinelevel0\rin0\lin1440\itap0\pararsid2950516 {\f1\insrsid479068\charrsid6435803 Tasti:\tab MAIUSC+CTRL+F6
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 {\f1\insrsid479068\charrsid6435803 
+\par \page }{\cs48\f1\super\insrsid479068\charrsid6435803 #{\footnote \pard\plain \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 #}{
+\insrsid479068  HID_SC_CLOSE}}}{\cs52\b\f1\fs22\insrsid479068\charrsid13908376 Comando Chiudi (menu di controllo)}{\b\f1\insrsid479068\charrsid6435803 
+\par }{\f1\insrsid479068\charrsid6435803 
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\outlinelevel0\rin0\lin0\itap0\pararsid2950516 {\f1\insrsid479068\charrsid6435803 Utilizzare questo comando per chiudere la finestra o la finestra di dialogo attiva.
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 {\f1\insrsid479068\charrsid6435803 
+\par Facendo doppio clic su una casella del menu di controllo equivale a scegliere il comando Chiudi.
+\par \{bml appexit.bmp\}
+\par 
+\par Nota: se si hanno pi\'f9 finestre aperte per un singolo documento, il comando Chiudi sul menu di controllo del documento chiude solo una finestra alla volta. \'c8
+ possibile chiudere tutte le finestre contemporaneamente utilizzando il comando Chiudi dal menu File.
+\par 
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\outlinelevel0\rin0\lin0\itap0\pararsid2950516 {\b\f1\insrsid479068\charrsid6435803 Tasti di scelta rapida
+\par }\pard \ql \fi-1080\li1440\ri0\sl240\slmult0\widctlpar\tx1440\faauto\outlinelevel0\rin0\lin1440\itap0\pararsid2950516 {\f1\insrsid479068\charrsid6435803 Tasti: \tab CTRL+F4 chiude una finestra del documento
+\par }\pard \ql \fi-1080\li1440\ri0\sl240\slmult0\widctlpar\tx1440\faauto\rin0\lin1440\itap0 {\f1\insrsid479068\charrsid6435803 \tab ALT+F4 chiude la fi}{\f1\insrsid9380536 nestra o la finestra di dialogo}{\f1\insrsid479068\charrsid6435803 
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 {\f1\insrsid479068\charrsid6435803 \tab \tab \tab \page }{\cs48\f1\super\insrsid479068\charrsid6435803 #{\footnote \pard\plain \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 
+\f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 #}{\insrsid479068  HID_SC_RESTORE}}}{\cs52\b\f1\fs22\insrsid479068\charrsid13908376 Comando Ripristina (menu di controllo)}{
+\b\f1\insrsid479068\charrsid6435803 
+\par }{\f1\insrsid479068\charrsid6435803 
+\par Utilizzare questo comando per riportare la finestra attiva alla dimensione originale, prima dell'uso del comando Ingrandisci o Riduci ad icona.
+\par \page }{\cs48\f1\super\insrsid479068\charrsid6435803 #{\footnote \pard\plain \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 #}{
+\insrsid479068  HID_SC_TASKLIST}}}{\cs52\b\f1\fs22\insrsid479068\charrsid13908376 Comando Passa a (menu di controllo dell'applicazione)
+\par }{\f1\insrsid479068\charrsid6435803 
+\par Utilizzare questo comando per visualizzare un elenco di tutte le applicazioni aperte. Utilizzare questo "Elenco dei task" per passare ad un'applicazione dell'elenco o per chiudere un'applicazione.
+\par 
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\outlinelevel0\rin0\lin0\itap0\pararsid2950516 {\b\f1\insrsid479068\charrsid6435803 Tasto di scelta rapida
+\par }\pard \ql \fi-1080\li1440\ri0\sl240\slmult0\widctlpar\tx1440\faauto\outlinelevel0\rin0\lin1440\itap0\pararsid2950516 {\f1\insrsid479068\charrsid6435803 Tasti:\tab CTRL+ESC
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 {\f1\insrsid479068\charrsid6435803 
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\outlinelevel0\rin0\lin0\itap0\pararsid2950516 {\b\f1\insrsid479068\charrsid6435803 Opzioni della finestra di dialogo
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 {\f1\insrsid479068\charrsid6435803 Quando si sceglie il comando Passa a, viene visualizzata una finestra di dialogo con le seguenti opzioni:
+\par }\pard \ql \li0\ri0\sb60\sl240\slmult0\widctlpar\faauto\outlinelevel0\rin0\lin0\itap0\pararsid2950516 {\b\f1\insrsid479068\charrsid6435803 Elenco dei task
+\par }\pard \ql \li360\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin360\itap0 {\f1\insrsid479068\charrsid6435803 Selezionare l'applicazione a cui si desidera passare o che si desidera chiudere.
+\par }\pard \ql \li0\ri0\sb60\sl240\slmult0\widctlpar\faauto\outlinelevel0\rin0\lin0\itap0\pararsid2950516 {\b\f1\insrsid479068\charrsid6435803 Passa a
+\par }\pard \ql \li360\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin360\itap0 {\f1\insrsid479068\charrsid6435803 Rende attiva l'applicazione selezionata.
+\par }\pard \ql \li0\ri0\sb60\sl240\slmult0\widctlpar\faauto\outlinelevel0\rin0\lin0\itap0\pararsid2950516 {\b\f1\insrsid479068\charrsid6435803 Fine del task
+\par }\pard \ql \li360\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin360\itap0 {\f1\insrsid479068\charrsid6435803 Chiude l'applicazione selezionata.
+\par }\pard \ql \li0\ri0\sb60\sl240\slmult0\widctlpar\faauto\outlinelevel0\rin0\lin0\itap0\pararsid2950516 {\b\f1\insrsid479068\charrsid6435803 Annulla
+\par }\pard \ql \li360\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin360\itap0 {\f1\insrsid479068\charrsid6435803 Chiude la casella Elenco dei task.
+\par }\pard \ql \li0\ri0\sb60\sl240\slmult0\widctlpar\faauto\outlinelevel0\rin0\lin0\itap0\pararsid2950516 {\b\f1\insrsid479068\charrsid6435803 Sovrapposte
+\par }\pard \ql \li360\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin360\itap0 {\f1\insrsid479068\charrsid6435803 Dispone le applicazioni aperte in modo che si sovrappongano e s
+ia possibile vedere ogni barra del titolo. Questa opzione non riguarda le applicazioni ridotte ad icone.
+\par }\pard \ql \li0\ri0\sb60\sl240\slmult0\widctlpar\faauto\outlinelevel0\rin0\lin0\itap0\pararsid2950516 {\b\f1\insrsid479068\charrsid6435803 Affianca
+\par }\pard \ql \li360\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin360\itap0 {\f1\insrsid479068\charrsid6435803 Dispone le applicazioni aperte in finestre non sovrapposte. Questa opzione non riguarda le applicazioni ridotte ad icone.
+\par }\pard \ql \li0\ri0\sb60\sl240\slmult0\widctlpar\faauto\outlinelevel0\rin0\lin0\itap0\pararsid2950516 {\b\f1\insrsid479068\charrsid6435803 Disponi icone
+\par }\pard \ql \li360\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin360\itap0\pararsid6492927 {\f1\insrsid479068\charrsid6435803 Dispone le icone di tutte le applicazioni ridotte ad icone nella parte inferiore dello schermo.
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 {\f1\insrsid479068\charrsid6435803 
+\par \page }{\cs48\f1\super\insrsid479068\charrsid6435803 #{\footnote \pard\plain \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 #}{
+\insrsid479068  HID_HT_NOWHERE}}}{\cs52\b\f1\fs22\insrsid479068\charrsid13908376 Guida non disponibile}{\f1\insrsid479068\charrsid6435803 
+\par 
+\par Non \'e8 disponibile alcuna guida per quest'area della finestra.
+\par \page }{\cs48\f1\super\insrsid479068\charrsid6435803 #{\footnote \pard\plain \s15\ql \li0\ri0\widctlpar\faauto\rin0\lin0\itap0 \f6\fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\cs48\super\insrsid479068\charrsid479068 #}{\insrsid479068 
+ AFX_HIDP_default
+\par }}}{\cs52\b\f1\fs22\insrsid479068\charrsid13908376  Guida non disponibile
+\par }{\f1\insrsid479068\charrsid6435803 
+\par }\pard \ql \li0\ri0\sl240\slmult0\widctlpar\faauto\outlinelevel0\rin0\lin0\itap0\pararsid2950516 {\f1\insrsid479068\charrsid6435803 Non \'e8 disponibile alcuna guida per questa finestra di messaggio.
+\par }\pard \ql \li0\ri0\widctlpar\faauto\rin0\lin0\itap0 {\f1\insrsid479068\charrsid6435803 
+\par }}

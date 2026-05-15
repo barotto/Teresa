@@ -1,0 +1,819 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Italian (Italy) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ITA)
+#ifdef _WIN32
+LANGUAGE LANG_ITALIAN, SUBLANG_ITALIAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ITA)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 16, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Teresa.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.ita\\afxres.rc""          // Standard components\r\n"
+    "#include ""l.ita\\afxprint.rc""        // printing/print preview resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\Teresa.ico"
+IDR_TERESATYPE          ICON    DISCARDABLE     "res\\TeresaDoc.ico"
+IDI_SIGMA               ICON    DISCARDABLE     "res\\sigma.ico"
+IDI_START               ICON    DISCARDABLE     "res\\start.ico"
+IDI_STOP                ICON    DISCARDABLE     "res\\stop.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+IDB_INPUTBAR            BITMAP  DISCARDABLE     "res\\InputBar.bmp"
+IDB_PALLINI             BITMAP  DISCARDABLE     "res\\bmp00002.bmp"
+IDB_HUETFUNC            BITMAP  DISCARDABLE     "res\\huetfunc.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  16, 16
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    BUTTON      ID_SIDVIEW_SWAPTERMS
+    BUTTON      ID_SIDVIEW_ELIMINA
+    BUTTON      ID_SIDVIEW_DELETEALL
+    SEPARATOR
+    BUTTON      ID_EDIT_UNDO
+    SEPARATOR
+    BUTTON      ID_SIDVIEW_ORDER
+    BUTTON      ID_SIDVIEW_PROPERTIES
+    SEPARATOR
+    BUTTON      ID_SIDVIEW_TESTORDER
+    BUTTON      ID_SIDVIEW_UNIFICAZIONE
+    BUTTON      ID_SIDVIEW_COPPIECRITICHE
+    BUTTON      ID_SIDVIEW_HUET
+    BUTTON      ID_WORDPROBLEM
+    SEPARATOR
+    BUTTON      ID_VIEW_OUTPUTBAR
+    BUTTON      ID_OUTPUTEDIT_CLEAR
+    BUTTON      ID_OUTPUTEDIT_COPYALL
+    SEPARATOR
+    BUTTON      ID_HELP_FINDER
+    BUTTON      ID_CONTEXT_HELP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Nuovo\tCtrl+N",              ID_FILE_NEW
+        MENUITEM "&Apri...\tCtrl+A",            ID_FILE_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "Imposta s&tampante...",       ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Ultimo file usato",           ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "&Esci",                       ID_APP_EXIT
+    END
+    POPUP "&Visualizza"
+    BEGIN
+        MENUITEM "Barra degli st&rumenti",      ID_VIEW_TOOLBAR
+        MENUITEM "Barra di st&ato",             ID_VIEW_STATUS_BAR
+        MENUITEM "Barra di output",             ID_VIEW_OUTPUTBAR
+    END
+    POPUP "&Opzioni"
+    BEGIN
+        MENUITEM "Ottieni dettagli",            ID_VERBOSE_MODE
+        MENUITEM SEPARATOR
+        MENUITEM "&Associa file *.TSA",         ID_REGISTER_FILE_TYPE
+        MENUITEM "Dissocia file *.TSA",         ID_UNREGISTER_FILE_TYPE
+    END
+    POPUP "&?"
+    BEGIN
+        MENUITEM "&Argomenti della Guida",      ID_HELP_FINDER
+        MENUITEM SEPARATOR
+        MENUITEM "Infor&mazioni su Teresa...",  ID_APP_ABOUT
+    END
+END
+
+IDR_TERESATYPE MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Nuovo\tCtrl+N",              ID_FILE_NEW
+        MENUITEM "&Apri...\tCtrl+A",            ID_FILE_OPEN
+        MENUITEM "&Chiudi",                     ID_FILE_CLOSE
+        MENUITEM "&Salva\tCtrl+S",              ID_FILE_SAVE
+        MENUITEM "Sa&lva con nome...",          ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "Stam&pa...\tCtrl+P",          ID_FILE_PRINT
+        MENUITEM "Antepri&ma di stampa",        ID_FILE_PRINT_PREVIEW
+        MENUITEM "Imposta s&tampante...",       ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Ultimo file usato",           ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "&Esci",                       ID_APP_EXIT
+    END
+    POPUP "&Modifica"
+    BEGIN
+        MENUITEM "&Annulla\tCtrl+Z",            ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "&Nuova coppia\tF3",           ID_NUOVACOPPIA
+        MENUITEM SEPARATOR
+        MENUITEM "&Taglia\tCtrl+X",             ID_EDIT_CUT
+        MENUITEM "&Copia\tCtrl+C",              ID_EDIT_COPY
+        MENUITEM "I&ncolla\tCtrl+V",            ID_EDIT_PASTE
+        MENUITEM SEPARATOR
+        MENUITEM "&Modifica\tF2",               ID_SIDVIEW_MODIFICA
+        MENUITEM "&Inverti\tCtrl+I",            ID_SIDVIEW_SWAPTERMS
+        MENUITEM "&Elimina\tCANC",              ID_SIDVIEW_ELIMINA
+        MENUITEM "E&limina tutto",              ID_SIDVIEW_DELETEALL
+        MENUITEM SEPARATOR
+        MENUITEM "&Ordine",                     ID_SIDVIEW_ORDER
+        MENUITEM SEPARATOR
+        MENUITEM "A&ggiorna\tF5",               ID_SIDVIEW_REFRESH
+        MENUITEM SEPARATOR
+        MENUITEM "&Proprietà\tAlt+INVIO",       ID_SIDVIEW_PROPERTIES
+    END
+    POPUP "&Computa"
+    BEGIN
+        MENUITEM "&Prova ordine",               ID_SIDVIEW_TESTORDER
+        MENUITEM "&Unificazione",               ID_SIDVIEW_UNIFICAZIONE
+        MENUITEM "C&oppie critiche",            ID_SIDVIEW_COPPIECRITICHE
+        MENUITEM "Co&mpletamento",              ID_SIDVIEW_HUET
+        MENUITEM SEPARATOR
+        MENUITEM "P&roblema della parola",      ID_WORDPROBLEM
+    END
+    POPUP "&Visualizza"
+    BEGIN
+        MENUITEM "Barra degli st&rumenti",      ID_VIEW_TOOLBAR
+        MENUITEM "Barra di st&ato",             ID_VIEW_STATUS_BAR
+        MENUITEM "Barra di output",             ID_VIEW_OUTPUTBAR
+    END
+    POPUP "&Opzioni"
+    BEGIN
+        MENUITEM "Ottieni dettagli",            ID_VERBOSE_MODE
+        MENUITEM SEPARATOR
+        MENUITEM "&Associa file *.TSA",         ID_REGISTER_FILE_TYPE
+        MENUITEM "Dissocia file *.TSA",         ID_UNREGISTER_FILE_TYPE
+    END
+    POPUP "Fi&nestra"
+    BEGIN
+        MENUITEM "&Nuova finestra",             ID_WINDOW_NEW
+        MENUITEM "&Sovrapponi",                 ID_WINDOW_CASCADE
+        MENUITEM "&Affianca",                   ID_WINDOW_TILE_HORZ
+        MENUITEM "&Disponi icone",              ID_WINDOW_ARRANGE
+    END
+    POPUP "&?"
+    BEGIN
+        MENUITEM "&Argomenti della Guida",      ID_HELP_FINDER
+        MENUITEM SEPARATOR
+        MENUITEM "Infor&mazioni su Teresa...",  ID_APP_ABOUT
+    END
+END
+
+IDR_POPUP_TRSVIEW MENU DISCARDABLE 
+BEGIN
+    POPUP "_POPUP_"
+    BEGIN
+        MENUITEM "Elimina",                     ID_TRSVIEW_DELETEALL
+    END
+END
+
+IDR_POPUP_SIDVIEW MENU DISCARDABLE 
+BEGIN
+    POPUP "_POPUP_"
+    BEGIN
+        MENUITEM "Nuova coppia\tF3",            ID_NUOVACOPPIA
+        MENUITEM SEPARATOR
+        MENUITEM "Incolla\tCtrl+V",             ID_EDIT_PASTE
+        MENUITEM SEPARATOR
+        MENUITEM "Ordine",                      ID_SIDVIEW_ORDER
+        MENUITEM SEPARATOR
+        MENUITEM "Aggiorna\tF5",                ID_SIDVIEW_REFRESH
+        MENUITEM SEPARATOR
+        MENUITEM "Proprietà\tAlt+INVIO",        ID_SIDVIEW_PROPERTIES
+    END
+END
+
+IDR_POPUP_TERMSVIEW MENU DISCARDABLE 
+BEGIN
+    POPUP "_POPUP_"
+    BEGIN
+        MENUITEM "TRS",                         ID_TRS_VIEW
+    END
+END
+
+IDR_POPUP_SIDVIEW_ITEM MENU DISCARDABLE 
+BEGIN
+    POPUP "_POPUP_"
+    BEGIN
+        MENUITEM "Taglia\tCtrl+X",              ID_EDIT_CUT
+        MENUITEM "Copia\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM SEPARATOR
+        MENUITEM "Modifica\tF2",                ID_SIDVIEW_MODIFICA
+        MENUITEM "Elimina\tCANC",               ID_SIDVIEW_ELIMINA
+        MENUITEM "Inverti\tCtrl+I",             ID_SIDVIEW_SWAPTERMS
+        MENUITEM SEPARATOR
+        MENUITEM "Proprietà\tAlt+INVIO",        ID_SIDVIEW_PROPERTIES
+    END
+END
+
+IDR_POPUP_OUTPUTEDIT MENU DISCARDABLE 
+BEGIN
+    POPUP "_POPUP_"
+    BEGIN
+        MENUITEM "Copia",                       ID_OUTPUTEDIT_COPY
+        MENUITEM "Copia tutto",                 ID_OUTPUTEDIT_COPYALL
+        MENUITEM SEPARATOR
+        MENUITEM "Cancella",                    ID_OUTPUTEDIT_CLEAR
+    END
+END
+
+IDR_DESCRIZIONE MENU DISCARDABLE 
+BEGIN
+    MENUITEM "&Accetta",                    IDOK
+    MENUITEM "A&nnulla",                    IDCANCEL
+    MENUITEM SEPARATOR
+    MENUITEM "&Font",                       ID_FORMAT_FONT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "I",            ID_SIDVIEW_SWAPTERMS,   VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F1,          ID_HELP,                VIRTKEY, NOINVERT
+    VK_F1,          ID_CONTEXT_HELP,        VIRTKEY, SHIFT, NOINVERT
+    VK_F5,          ID_SIDVIEW_REFRESH,     VIRTKEY, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    VK_RETURN,      ID_SIDVIEW_PROPERTIES,  VIRTKEY, ALT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 257, 153
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Informazioni su Teresa"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,7,7,20,20
+    LTEXT           "Teresa\n TErm REwriting Systems Application",IDC_STATIC,
+                    40,10,156,19,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2001 Marco Bortolin,  Alberto Minora",
+                    IDC_STATIC,41,68,209,8
+    DEFPUSHBUTTON   "OK",IDOK,200,7,50,14,WS_GROUP
+    EDITTEXT        IDC_ABOUTBOX_EDIT,41,91,209,55,ES_MULTILINE | 
+                    ES_READONLY | WS_VSCROLL | NOT WS_TABSTOP
+    LTEXT           "TRS",IDC_ABOUTBOX_TRSVERSION,92,52,158,8
+    LTEXT           "TERESA",IDC_ABOUTBOX_TERESAVERSION,80,28,170,8
+    LTEXT           "TRS core:",IDC_STATIC,48,52,36,8
+    LTEXT           "Interfaccia:",IDC_STATIC,48,41,40,8
+    LTEXT           "Versione:",IDC_STATIC,41,28,33,9
+    LTEXT           "e-mail: trs.teresa@katamail.com",IDC_STATIC,41,79,209,9
+    LTEXT           "TERESA GUI",IDC_ABOUTBOX_TERESAGUI,92,41,158,8
+END
+
+IDD_EQUPROP DIALOGEX 0, 0, 248, 177
+STYLE WS_CHILD | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Coppia"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EQUPROP_EDIT,7,7,233,41,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_OEMCONVERT | 
+                    ES_READONLY | ES_WANTRETURN | WS_VSCROLL | WS_HSCROLL | 
+                    NOT WS_TABSTOP
+    CONTROL         "Tree1",IDC_EQUPROP_TREE,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_DISABLEDRAGDROP | 
+                    TVS_NONEVENHEIGHT | WS_BORDER,13,61,222,103
+    GROUPBOX        "Albero dei termini",IDC_STATIC,7,51,234,119
+END
+
+IDD_TEORIAPROP DIALOGEX 0, 0, 248, 183
+STYLE WS_CHILD | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Teoria"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Segnatura - funzione (arietà)",IDC_STATIC,7,7,142,97
+    LISTBOX         IDC_FUNCLIST,12,18,131,70,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | LBS_NOSEL | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Static",IDC_NUMFUNC,118,91,27,10,SS_CENTERIMAGE
+    RTEXT           "Tot.:",IDC_STATIC,85,91,31,10,SS_CENTERIMAGE
+    EDITTEXT        IDC_ORDER,13,116,222,36,ES_MULTILINE | ES_READONLY | 
+                    WS_VSCROLL | NOT WS_TABSTOP
+    GROUPBOX        "Ordine",IDC_STATIC,7,106,234,53
+    GROUPBOX        "Variabili - Teoria e TRS",IDC_STATIC,153,7,88,97
+    LISTBOX         IDC_VARLIST,159,18,77,70,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    LBS_NOSEL | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Static",IDC_NUMVAR,211,91,24,10,SS_CENTERIMAGE
+    RTEXT           "Tot.:",IDC_STATIC,178,91,31,10,SS_CENTERIMAGE
+    PUSHBUTTON      "Descrizione...",IDC_TEORIAPROP_DESC,189,162,52,14
+END
+
+IDD_ORDER DIALOG DISCARDABLE  0, 0, 272, 183
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Definizione dell'ordine"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_ORDER_EDIT,13,123,244,29,ES_MULTILINE | WS_VSCROLL
+    LISTBOX         IDC_SIGNATURE,13,16,244,70,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      ">",IDC_GREATER,13,106,18,14
+    PUSHBUTTON      "=",IDC_EQUAL,31,106,18,14
+    DEFPUSHBUTTON   "OK",IDOK,158,162,50,14
+    PUSHBUTTON      "Annulla",IDCANCEL,215,162,50,14
+    LTEXT           "I simboli di precedenza ammessi sono '>' e '='",
+                    IDC_STATIC,117,108,148,10
+    GROUPBOX        "Segnatura - funzione (arietà)",IDC_STATIC,7,5,258,88
+    GROUPBOX        "Ordine",IDC_STATIC,7,95,258,63
+    CTEXT           "Static",IDC_ORD_OP,56,106,22,14,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+END
+
+IDD_ORDER_PROB DIALOG DISCARDABLE  0, 0, 307, 82
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Errore nell'ordine"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Modifica",IDRETRY,102,61,50,14
+    DEFPUSHBUTTON   "Annulla",IDCANCEL,156,61,50,14
+    DEFPUSHBUTTON   "Ignora",IDOK,274,61,26,14
+    EDITTEXT        IDC_ORDER_PROB_EDIT,7,18,293,39,ES_MULTILINE | 
+                    ES_READONLY | WS_HSCROLL | NOT WS_TABSTOP
+    LTEXT           "Si è verificato il seguente problema nella stringa inserita:",
+                    IDC_STATIC,7,7,293,11
+END
+
+IDD_HUET DIALOG DISCARDABLE  0, 0, 282, 125
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Teresa - Completamento"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Avvio",IDC_AVVIO,90,15,24,22,BS_ICON
+    PUSHBUTTON      "Stop",IDC_STOP,119,15,24,22,BS_ICON
+    EDITTEXT        IDC_EDIT_LOOPNUM,13,17,58,15,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Spin1",IDC_SPIN1,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,72,17,7,
+                    15
+    DEFPUSHBUTTON   "Apri log",ID_HUETDLG_LOG,215,65,53,14
+    DEFPUSHBUTTON   "Chiudi",IDCANCEL,224,18,51,14
+    CONTROL         "Progress1",IDC_PROGRESS,"msctls_progress32",WS_BORDER,
+                    67,94,203,14
+    EDITTEXT        IDC_EDIT_CURLOOP,67,65,51,14,ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER | NOT WS_TABSTOP
+    GROUPBOX        "Stato della procedura",IDC_STATIC,7,43,268,74
+    LTEXT           "Massimo cicli:",IDC_STATIC,13,7,59,10
+    EDITTEXT        IDC_EDIT_TRSRULES,141,65,51,14,ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER | NOT WS_TABSTOP
+    LTEXT           "Regole nel TRS:",IDC_STATIC,141,55,54,9
+    LTEXT           "Ciclo numero:",IDC_STATIC,67,55,46,9
+    LTEXT           "Stato del ciclo corrente:",IDC_STATIC,67,83,78,10
+    CONTROL         "Crea file log",IDC_CHECKLOG,"Button",BS_AUTOCHECKBOX,
+                    216,54,53,9
+    LTEXT           "Simplify",IDC_STATIC,23,56,39,8
+    LTEXT           "Delete",IDC_STATIC,23,67,39,8
+    LTEXT           "Orient",IDC_STATIC,23,78,39,8
+    LTEXT           "L-R Simplify",IDC_STATIC,23,89,39,8
+    LTEXT           "Deduce",IDC_STATIC,23,99,39,8
+    ICON            "",IDC_FUNCNAME,13,57,20,20,SS_SUNKEN
+END
+
+IDD_DESCRIZIONE DIALOGEX 0, 0, 282, 176
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Descrizione"
+MENU IDR_DESCRIZIONE
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_DESC_EDIT,7,7,268,162,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_WANTRETURN | WS_VSCROLL
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,1,1
+ PRODUCTVERSION 1,0,1,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041004b0"
+        BEGIN
+            VALUE "Comments", "TErm REwriting System Application, per il corso di Logica 2 prof.Ghilardi DSI, Milano\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Teresa\0"
+            VALUE "FileVersion", "1, 0, 1, 1\0"
+            VALUE "InternalName", "Teresa\0"
+            VALUE "LegalCopyright", "(C) 2001 Marco Bortolin, Alberto Minora\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Teresa.exe\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "Teresa\0"
+            VALUE "ProductVersion", "1, 0, 1, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x410, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 250
+        VERTGUIDE, 41
+        VERTGUIDE, 48
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 146
+    END
+
+    IDD_EQUPROP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 241
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 170
+    END
+
+    IDD_TEORIAPROP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 241
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 176
+    END
+
+    IDD_ORDER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 265
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 176
+    END
+
+    IDD_ORDER_PROB, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 300
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 75
+    END
+
+    IDD_HUET, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 275
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 117
+    END
+
+    IDD_DESCRIZIONE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 275
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 169
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXT
+//
+
+IDR_INFO_TEXT           TEXT    DISCARDABLE     "res\\info.txt"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "Teresa"
+    IDR_TERESATYPE          "\nTSA\nTSA\nTeresa (*.TSA)\n.tsa\nTeresa.Document\nTeresa"
+    IDS_TERESAGUI_VERSION   "1.0"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "Teresa"
+    AFX_IDS_IDLEMESSAGE     "Per informazioni, premere F1"
+    AFX_IDS_HELPMODEMESSAGE "Selezionare un oggetto su cui si desiderano informazioni"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EST"
+    ID_INDICATOR_CAPS       "MA"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "BS"
+    ID_INDICATOR_OVR        "SSC"
+    ID_INDICATOR_REC        "REG"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Crea un nuovo documento\nNuovo"
+    ID_FILE_OPEN            "Apre un documento esistente\nApri"
+    ID_FILE_CLOSE           "Chiude il documento attivo\nChiudi"
+    ID_FILE_SAVE            "Salva il documento attivo\nSalva"
+    ID_FILE_SAVE_AS         "Salva il documento attivo con un nuovo nome\nSalva con nome"
+    ID_FILE_PAGE_SETUP      "Modifica le impostazioni di stampa\nImposta pagina"
+    ID_FILE_PRINT_SETUP     "Modifica le impostazioni relative alla stampante e alla stampa\nImposta stampante"
+    ID_FILE_PRINT           "Stampa il documento attivo\nStampa"
+    ID_FILE_PRINT_PREVIEW   "Visualizza le pagine per intero\nAnteprima di stampa"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Visualizza le informazioni sul programma, il numero di versione e le informazioni di copyright\nInformazioni su"
+    ID_APP_EXIT             "Esce dall'applicazione e chiede di salvare i documenti\nEsci"
+    ID_HELP_INDEX           "Elenca gli argomenti della Guida\nIndice"
+    ID_HELP_FINDER          "Elenca gli argomenti della Guida\nArgomenti della Guida"
+    ID_HELP_USING           "Visualizza le istruzioni su come utilizzare la Guida\n?"
+    ID_CONTEXT_HELP         "Visualizza la Guida per i pulsanti selezionati, i menu e le finestre\n?"
+    ID_HELP                 "Visualizza la Guida per l'operazione o il comando corrente\n?"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Apre questo documento"
+    ID_FILE_MRU_FILE2       "Apre questo documento"
+    ID_FILE_MRU_FILE3       "Apre questo documento"
+    ID_FILE_MRU_FILE4       "Apre questo documento"
+    ID_FILE_MRU_FILE5       "Apre questo documento"
+    ID_FILE_MRU_FILE6       "Apre questo documento"
+    ID_FILE_MRU_FILE7       "Apre questo documento"
+    ID_FILE_MRU_FILE8       "Apre questo documento"
+    ID_FILE_MRU_FILE9       "Apre questo documento"
+    ID_FILE_MRU_FILE10      "Apre questo documento"
+    ID_FILE_MRU_FILE11      "Apre questo documento"
+    ID_FILE_MRU_FILE12      "Apre questo documento"
+    ID_FILE_MRU_FILE13      "Apre questo documento"
+    ID_FILE_MRU_FILE14      "Apre questo documento"
+    ID_FILE_MRU_FILE15      "Apre questo documento"
+    ID_FILE_MRU_FILE16      "Apre questo documento"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Passa al riquadro della finestra successivo\nRiquadro successivo"
+    ID_PREV_PANE            "Ritorna al riquadro della finestra precedente\nRiquadro precedente"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_NEW           "Apre un'altra finestra per il documento attivo\nNuova finestra"
+    ID_WINDOW_ARRANGE       "Dispone le icone nella parte inferiore della finestra\nDisponi icone"
+    ID_WINDOW_CASCADE       "Dispone le finestre sovrapponendole\nSovrapponi finestre"
+    ID_WINDOW_TILE_HORZ     "Dispone le finestre senza sovrapporle\nAffianca finestre"
+    ID_WINDOW_TILE_VERT     "Dispone le finestre senza sovrapporle\nAffianca finestre"
+    ID_WINDOW_SPLIT         "Divide la finestra attiva in riquadri\nDividi"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Cancella la selezione\nCancella"
+    ID_EDIT_CLEAR_ALL       "Cancella tutto\nCancella tutto"
+    ID_EDIT_COPY            "Copia la selezione e la pone negli Appunti\nCopia"
+    ID_EDIT_CUT             "Taglia la selezione e la pone negli Appunti\nTaglia"
+    ID_EDIT_FIND            "Trova il testo specificato\nTrova"
+    ID_EDIT_PASTE           "Inserisce il contenuto degli Appunti\nIncolla"
+    ID_EDIT_REPEAT          "Ripete l'ultima azione\nRipeti"
+    ID_EDIT_REPLACE         "Sostituisce il testo specifico con un testo differente\nSostituisci"
+    ID_EDIT_SELECT_ALL      "Seleziona l'intero documento\nSeleziona tutto"
+    ID_EDIT_UNDO            "Annulla l'ultima modifica\nAnnulla"
+    ID_EDIT_REDO            "Ripristina l'azione precedentemente annullata\nRipristina"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Mostra o nasconde la barra degli strumenti\nMostra/nascondi barra degli strumenti"
+    ID_VIEW_STATUS_BAR      "Mostra o nasconde la barra di stato\nMostra/nascondi barra di stato"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Modifica le dimensioni della finestra"
+    AFX_IDS_SCMOVE          "Modifica la posizione della finestra"
+    AFX_IDS_SCMINIMIZE      "Riduce la finestra ad icona"
+    AFX_IDS_SCMAXIMIZE      "Allarga la finestra a tutto schermo"
+    AFX_IDS_SCNEXTWINDOW    "Passa alla finestra successiva del documento "
+    AFX_IDS_SCPREVWINDOW    "Passa alla precedente finestra del documento"
+    AFX_IDS_SCCLOSE         "Chiude la finestra attiva e chiede di salvare i documenti"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Ripristina la finestra alle dimensioni normali"
+    AFX_IDS_SCTASKLIST      "Attiva l'Elenco dei task"
+    AFX_IDS_MDICHILD        "Attiva questa finestra"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Chiude la modalità anteprima di stampa\n Annulla anteprima"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INPUTOK              "Accetta l'input\nAccetta l'input"
+    ID_INPUTCANCEL          "Annulla l'input\nAnnulla l'input"
+    ID_NUOVACOPPIA          "Aggiunge una nuova coppia di termini.\nNuova coppia"
+    IDW_INPUTBAR            "Barra di input"
+    IDW_INPUTBAR_EDIT       "Barra di input. Per inserire una nuova coppia premere F3."
+    IDW_OUTPUTBAR_EDIT      "Finestra di output."
+    ID_INPUTBAR_EDIT_IGNORAKEYUP "Ignora un WM_KEYUP"
+    IDS_CTDOCERR_ARITY      "Errore di arietà. La coppia e` stata ugualmente inserita\n nella teoria per facilitare la correzione, tuttavia non sarà\n possibile procedere ad alcuna computazione.\n\n"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_SIDVIEW_ELIMINA      "Elimina la coppia selezionata.\nElimina"
+    ID_SIDVIEW_MODIFICA     "Modifica la coppia selezionata"
+    ID_TERMS_VIEW           "Vedi albero dei termini"
+    ID_TRS_VIEW             "Visualizza il TRS"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_SIDVIEW_ORDER        "Consente di definire un ordine\nOrdine"
+    ID_SIDVIEW_REFRESH      "Aggiorna lo stato della teoria."
+    ID_VIEW_OUTPUTBAR       "Mostra o nasconde la barra di output.\nOutput"
+    ID_SIDVIEW_TESTORDER    "Prova l'ordine specificato sulla teoria\nProva ordine"
+    ID_OUTPUTEDIT_CLEAR     "Cancella il testo di output.\nCancella output"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_CTDOCERR_DUP        "La coppia è già stata inserita.\n"
+    IDW_OUTPUT_BAR          "Barra di output"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_OUTPUTEDIT_COPY      "Copia negli appunti il testo di output selezionato.\nCopia output"
+    ID_SIDVIEW_UNIFICAZIONE "Risolve il problema dell'unificazione per la teoria inserita.\nUnificazione"
+    ID_SIDVIEW_SWAPTERMS    "Inverte il termine di sinistra con quello di destra e viceversa.\nInverti"
+    ID_SIDVIEW_COPPIECRITICHE 
+                            "Trova le coppie critiche considerando la teoria inserita come un TRS\nCoppie critiche"
+    ID_SIDVIEW_HUET         "Produce un TRS completando la teoria con l'algoritmo di Huet.\nCompletamento"
+    ID_TRSVIEW_WORDPROBLEM  "Risolve il problema della parola con il TRS risultante dal completamento.\nProblema della parola"
+    ID_SIDVIEW_PROPERTIES   "Ottieni ulteriori informazioni.\nProprietà"
+    ID_SIDVIEW_DELETEALL    "Elimina tutte le coppie della teoria.\nElimina tutto"
+    ID_WORDPROBLEM          "Consente di risolvere il problema della parola con il TRS calcolato dal completamento.\nProblema della parola"
+    ID_OUTPUTEDIT_COPYALL   "Copia tutto il contenuto della finestra di output negli appunti.\nCopia output"
+    ID_REGISTER_FILE_TYPE   "Associa Teresa ai file con estensione *.TSA\nAssocia file"
+    ID_UNREGISTER_FILE_TYPE "Toglie l'associazione dei file con estensione *.TSA\nDissocia file"
+    ID_VERBOSE_MODE         "Attiva/disattiva i dettagli (log) di computazione stampati nella finestra di output.\nOttieni dettagli"
+    ID_TRSVIEW_DELETEALL    "Elimina tutte le regole dal TRS."
+END
+
+#endif    // Italian (Italy) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ITA)
+#ifdef _WIN32
+LANGUAGE 16, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\Teresa.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.ita\afxres.rc"          // Standard components
+#include "l.ita\afxprint.rc"        // printing/print preview resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

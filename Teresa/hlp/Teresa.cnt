@@ -1,0 +1,27 @@
+:Base Teresa.hlp>proc1
+:Title TERESA Help
+1 Menu
+2 Menu File=menu_file
+2 Menu Modifica=menu_edit
+2 Menu Computa=menu_computa
+2 Menu Visualizza=menu_view
+2 Menu Opzioni=menu_opzioni
+2 Menu Finestra=menu_window
+2 Menu ?=menu_help
+1 Usare Teresa
+2 Descrizione dell'interfaccia=interfaccia
+2 Definire una teoria
+3 Sintassi=sintassi
+3 Inserire le coppie di termini=inserire_coppie
+3 Modifica della teoria=modifica_teoria
+3 Inserire un ordine=inserire_ordine
+2 Calcoli sulla teoria
+3 Test dell'ordine - Orientamento=orientamento
+3 Unificazione=unificazione
+3 Coppie critiche=CP
+3 Ottenere un TRS con l'algoritmo di Huet=huet
+3 Risolvere il problema della parola=problema_parola
+1 Informazioni
+2 Formato dei file TSA=formato_file
+2 Informazioni su Teresa=info_programma
+2 GNU General Public License=gnu

@@ -1,0 +1,16 @@
+Questo programma e` free software; puoi ridistribuirlo 
+e/o modificarlo sotto i termini della GNU General Public 
+License pubblicata dalla Free Software Foundation 
+(versione 2).
+
+Questo programma e` distribuito nella speranza che sia 
+utile ma SENZA ALCUNA GARANZIA;	senza nemmeno la 
+implicita garanzia di IDONEITA` AD UN UTILIZZO SPECIFICO. 
+Leggi la GNU General Public License per ulteriori 
+informazioni.
+
+Avresti dovuto ricevere una copia della GNU General Public 
+License insieme a questo programma; se cosi` non e` stato
+scrivi alla Free Software Foundation, Inc., 675 Mass Ave, 
+Cambridge, MA 02139, USA.
+
