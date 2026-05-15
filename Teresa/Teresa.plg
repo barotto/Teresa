@@ -6,10 +6,54 @@
 --------------------Configuration: Teresa - Win32 Release--------------------
 </h3>
 <h3>Command Lines</h3>
-Creating command line "rc.exe /l 0x410 /fo"Release/Teresa.res" /d "NDEBUG" /d "_AFXDLL" "C:\dev\Logica2\TermRew\Teresa\Teresa.rc"" 
-Creating temporary file "C:\WINDOWS\TEMP\RSP7151.TMP" with contents
+Creating command line "rc.exe /l 0x410 /fo"Release/Teresa.res" /d "NDEBUG" /d "_AFXDLL" "Z:\TermRew\Teresa\Teresa.rc"" 
+Creating temporary file "C:\DOCUME~1\marco\IMPOST~1\Temp\RSPC.tmp" with contents
 [
-dockbars.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/Teresa.pdb" /machine:I386 /out:"Release/Teresa.exe" 
+/nologo /MD /W3 /GX /O2 /I "../trscore" /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /D "TRS_AFX_USED" /FR"Release/" /Fo"Release/" /Fd"Release/" /FD /c 
+"Z:\TermRew\Teresa\ChildFrm.cpp"
+"Z:\TermRew\Teresa\DescDlg.cpp"
+"Z:\TermRew\Teresa\EquProp.cpp"
+"Z:\TermRew\Teresa\Globals.cpp"
+"Z:\TermRew\Teresa\HuetDlg.cpp"
+"Z:\TermRew\Teresa\InputBar.cpp"
+"Z:\TermRew\Teresa\InputEdit.cpp"
+"Z:\TermRew\Teresa\MainFrm.cpp"
+"Z:\TermRew\Teresa\OrderDlg.cpp"
+"Z:\TermRew\Teresa\OrderProbDlg.cpp"
+"Z:\TermRew\Teresa\OutputBar.cpp"
+"Z:\TermRew\Teresa\OutputEdit.cpp"
+"Z:\TermRew\Teresa\scbarcf.cpp"
+"Z:\TermRew\Teresa\scbarg.cpp"
+"Z:\TermRew\Teresa\SIDView.cpp"
+"Z:\TermRew\Teresa\sizecbar.cpp"
+"Z:\TermRew\Teresa\TeoriaProp.cpp"
+"Z:\TermRew\Teresa\Teresa.cpp"
+"Z:\TermRew\Teresa\TeresaDoc.cpp"
+"Z:\TermRew\Teresa\TermsView.cpp"
+"Z:\TermRew\trscore\trs.cpp"
+"Z:\TermRew\trscore\trscriticalpairs.cpp"
+"Z:\TermRew\trscore\trsexception.cpp"
+"Z:\TermRew\trscore\trshuet.cpp"
+"Z:\TermRew\trscore\trslpoorder.cpp"
+"Z:\TermRew\trscore\trsparser.cpp"
+"Z:\TermRew\trscore\trsrewrite.cpp"
+"Z:\TermRew\trscore\trssapairs.cpp"
+"Z:\TermRew\trscore\trssubst.cpp"
+"Z:\TermRew\trscore\trsterm.cpp"
+"Z:\TermRew\trscore\trstermpair.cpp"
+"Z:\TermRew\trscore\trsunify.cpp"
+"Z:\TermRew\Teresa\TRSView.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\marco\IMPOST~1\Temp\RSPC.tmp" 
+Creating temporary file "C:\DOCUME~1\marco\IMPOST~1\Temp\RSPD.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "../trscore" /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /D "TRS_AFX_USED" /FR"Release/" /Fp"Release/Teresa.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"Z:\TermRew\Teresa\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\marco\IMPOST~1\Temp\RSPD.tmp" 
+Creating temporary file "C:\DOCUME~1\marco\IMPOST~1\Temp\RSPE.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/Teresa.pdb" /machine:I386 /out:"Release/Teresa.exe" 
 .\Release\ChildFrm.obj
 .\Release\DescDlg.obj
 .\Release\EquProp.obj
@@ -22,7 +66,10 @@ dockbars.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/Teresa.pdb
 .\Release\OrderProbDlg.obj
 .\Release\OutputBar.obj
 .\Release\OutputEdit.obj
+.\Release\scbarcf.obj
+.\Release\scbarg.obj
 .\Release\SIDView.obj
+.\Release\sizecbar.obj
 .\Release\StdAfx.obj
 .\Release\TeoriaProp.obj
 .\Release\Teresa.obj
@@ -43,10 +90,89 @@ dockbars.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/Teresa.pdb
 .\Release\TRSView.obj
 .\Release\Teresa.res
 ]
-Creating command line "link.exe @C:\WINDOWS\TEMP\RSP7151.TMP"
+Creating command line "link.exe @C:\DOCUME~1\marco\IMPOST~1\Temp\RSPE.tmp"
 <h3>Output Window</h3>
 Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ChildFrm.cpp
+DescDlg.cpp
+EquProp.cpp
+Globals.cpp
+HuetDlg.cpp
+InputBar.cpp
+InputEdit.cpp
+MainFrm.cpp
+OrderDlg.cpp
+OrderProbDlg.cpp
+OutputBar.cpp
+OutputEdit.cpp
+scbarcf.cpp
+scbarg.cpp
+SIDView.cpp
+sizecbar.cpp
+TeoriaProp.cpp
+Teresa.cpp
+TeresaDoc.cpp
+TermsView.cpp
+Generating Code...
+Compiling...
+trs.cpp
+trscriticalpairs.cpp
+trsexception.cpp
+trshuet.cpp
+trslpoorder.cpp
+trsparser.cpp
+trsrewrite.cpp
+trssapairs.cpp
+trssubst.cpp
+trsterm.cpp
+trstermpair.cpp
+trsunify.cpp
+TRSView.cpp
+Generating Code...
 Linking...
+Creating temporary file "C:\DOCUME~1\marco\IMPOST~1\Temp\RSP10.tmp" with contents
+[
+/nologo /o"Release/Teresa.bsc" 
+.\Release\StdAfx.sbr
+.\Release\ChildFrm.sbr
+.\Release\DescDlg.sbr
+.\Release\EquProp.sbr
+.\Release\Globals.sbr
+.\Release\HuetDlg.sbr
+.\Release\InputBar.sbr
+.\Release\InputEdit.sbr
+.\Release\MainFrm.sbr
+.\Release\OrderDlg.sbr
+.\Release\OrderProbDlg.sbr
+.\Release\OutputBar.sbr
+.\Release\OutputEdit.sbr
+.\Release\scbarcf.sbr
+.\Release\scbarg.sbr
+.\Release\SIDView.sbr
+.\Release\sizecbar.sbr
+.\Release\TeoriaProp.sbr
+.\Release\Teresa.sbr
+.\Release\TeresaDoc.sbr
+.\Release\TermsView.sbr
+.\Release\trs.sbr
+.\Release\trscriticalpairs.sbr
+.\Release\trsexception.sbr
+.\Release\trshuet.sbr
+.\Release\trslpoorder.sbr
+.\Release\trsparser.sbr
+.\Release\trsrewrite.sbr
+.\Release\trssapairs.sbr
+.\Release\trssubst.sbr
+.\Release\trsterm.sbr
+.\Release\trstermpair.sbr
+.\Release\trsunify.sbr
+.\Release\TRSView.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\marco\IMPOST~1\Temp\RSP10.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
 
 
 

@@ -25,8 +25,8 @@
 #include "Globals.h"
 //#include <trs.h>
 
-#include <sizecbar.h>
-#include <scbarg.h>
+#include "sizecbar.h"
+#include "scbarg.h"
 
 
 //{{AFX_INSERT_LOCATION}}

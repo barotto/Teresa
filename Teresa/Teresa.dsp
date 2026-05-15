@@ -54,7 +54,7 @@ BSC32=bscmake.exe
 # ADD BSC32 /nologo
 LINK32=link.exe
 # ADD BASE LINK32 /nologo /subsystem:windows /machine:I386
-# ADD LINK32 dockbars.lib /nologo /subsystem:windows /machine:I386
+# ADD LINK32 /nologo /subsystem:windows /machine:I386
 
 !ELSEIF  "$(CFG)" == "Teresa - Win32 Debug"
 
@@ -81,7 +81,7 @@ BSC32=bscmake.exe
 # ADD BSC32 /nologo
 LINK32=link.exe
 # ADD BASE LINK32 /nologo /subsystem:windows /debug /machine:I386 /pdbtype:sept
-# ADD LINK32 dockbars_dbg.lib /nologo /subsystem:windows /debug /machine:I386 /pdbtype:sept
+# ADD LINK32 /nologo /subsystem:windows /debug /machine:I386 /pdbtype:sept
 
 !ENDIF 
 
@@ -142,7 +142,19 @@ SOURCE=.\OutputEdit.cpp
 # End Source File
 # Begin Source File
 
+SOURCE=.\scbarcf.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\scbarg.cpp
+# End Source File
+# Begin Source File
+
 SOURCE=.\SIDView.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\sizecbar.cpp
 # End Source File
 # Begin Source File
 
@@ -279,7 +291,19 @@ SOURCE=.\Resource.h
 # End Source File
 # Begin Source File
 
+SOURCE=.\scbarcf.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\scbarg.h
+# End Source File
+# Begin Source File
+
 SOURCE=.\SIDView.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\sizecbar.h
 # End Source File
 # Begin Source File
 

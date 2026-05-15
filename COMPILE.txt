@@ -13,28 +13,19 @@ Copyright (C) 2001 Marco Bortolin, Alberto Minora
 
 Note sulla compilazione
 -----------------------
-Il cuore di Teresa è collocato nella directory TRSCORE. In tale directory si 
+Il cuore di Teresa Ã¨ collocato nella directory TRSCORE. In tale directory si 
 trovano i file sorgente che implementano il term rewriting. Essi sono 
 compilabili in teoria su qualunque sistema che possieda un compilatore C++
 (testati su Linux RedHat 7.1 g++ 2.96 e Microsoft Visual C++ 6.0 sp5).
-Per utilizzarne le funzionalità includere trs.h nei file sorgente interessati.
+Per utilizzarne le funzionalitÃ  includere trs.h nei file sorgente interessati.
 
 Per compilare Teresa aprire il project workspace TermRew.dsw con 
 Microsoft Visual C++ 6.0; al suo interno vi sono due progetti: "Teresa" e 
-"TestConsole". Quest'ultimo può essere utilizzato per provare su console le classi
+"TestConsole". Quest'ultimo puÃ² essere utilizzato per provare su console le classi
 definite in trs.h.
 Il progetto "Teresa" contiene i sorgenti dell'interfaccia grafica per MS Windows
-e delle classi di trs.h. Per portare a buon fine la compilazione è necessario
-porre i seguenti file in una directory nota al linker:
-dockbars.lib      (versione release)
-dockbars_dbg.lib  (versione debug)
-E' altresì richiesto porre i seguenti file in una directory nota al preprocessor:
-scbarcf.h
-scbarg.h
-sizecbar.h
-I file .lib e .h si trovano nell'archivio dockbars.zip. 
-I sorgenti delle suddette librerie si trovano nell'erchivio sizecbar-v2.43.zip.
-La libreria CSizingControlBar è Copyright(c) 1998-2001 by Cristi Posea.
-Complete informazioni su copyright, utilizzo e compilazione sono reperibili
-presso il sito dell'autore: http://www.datamekanix.com
-I file dockbars.lib e dockbars_dbg.lib sono stati compilati da Marco Bortolin.
+e delle classi di trs.h.
+
+Teresa integra la libreria CSizingControlBar Copyright (C) 1998-2010 Cristi Posea. All rights reserved.
+Ulteriori informazioni sono reperibili presso il sito dell'autore: http://www.datamekanix.com
+
