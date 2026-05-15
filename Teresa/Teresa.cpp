@@ -371,7 +371,7 @@ void CTeresaApp::GetProfileFont(LPCTSTR _szSec, int _wndid, LOGFONT* _plf)
 	memset(_plf,0,sizeof(LOGFONT));
 
 	_plf->lfHeight = GetProfileInt((LPCTSTR)sec, "Height", 10);
-	_plf->lfWidth = GetProfileInt((LPCTSTR)sec, "Width", 4);
+	_plf->lfWidth = GetProfileInt((LPCTSTR)sec, "Width", 8);
 	_plf->lfWeight = GetProfileInt((LPCTSTR)sec, "Weight", FW_REGULAR);
 	_plf->lfItalic = (BYTE)GetProfileInt((LPCTSTR)sec, "Italic", 0);
 	_plf->lfUnderline = (BYTE)GetProfileInt((LPCTSTR)sec, "Underline", 0);

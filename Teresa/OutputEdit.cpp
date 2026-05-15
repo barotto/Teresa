@@ -98,7 +98,7 @@ int COutputEdit::OnCreate(LPCREATESTRUCT lpCreateStruct)
 	if (CRichEditCtrl::OnCreate(lpCreateStruct) == -1)
 		return -1;
 	
-	m_font.CreateFont(12,4,0,0,FW_NORMAL,false,false,false,ANSI_CHARSET,
+	m_font.CreateFont(12,8,0,0,FW_NORMAL,false,false,false,ANSI_CHARSET,
 		OUT_DEFAULT_PRECIS,CLIP_DEFAULT_PRECIS,
 		DEFAULT_QUALITY,FIXED_PITCH|FF_DONTCARE,"Courier");
 

@@ -2,8 +2,8 @@
 
 ![Program icon](./images/teresa.png) TErm REwriting Systems Application
 
-ver. 1.0.1.1  
-18/10/2001
+ver. 1.1.1.1  
+15/05/2026
 
 Copyright (C) 2001 Marco Bortolin, Alberto Minora
 
@@ -48,6 +48,10 @@ E' necessario che nel sistema sia presente la libreria `MSVCP60.DLL`, che deve t
 
 Teresa si serve del registro di Windows per memorizzare alcune impostazioni; le modifiche al registro sono situate in `HKEY_CURRENT_USER\Software\Teresa` e `HKEY_USERS\.DEFAULT\Software\Teresa`
 
+Per uso in Linux con Wine eseguire preventivamente:
+```
+$ winetricks mfc42
+```
 
 ## Disinstallazione
 
@@ -60,7 +64,7 @@ Rimuovere dal registro di Windows le voci `HKEY_CURRENT_USER\Software\Teresa` e 
 
 **Processore**: Intel 486 o 100% compatibile (consigliato classe 586)  
 **Memoria**: testato con successo con 64MB  
-**Sistema Operativo**: Microsoft Windows 95/98/98SE/ME (non testato su NT/2000/XP)
+**Sistema Operativo**: Microsoft Windows 95/98/98SE/ME/XP (non testato su NT/2000) o Linux (Wine)
 
 
 ## Licenza
@@ -73,6 +77,12 @@ Avresti dovuto ricevere una copia della GNU General Public License insieme a que
 
 
 ## Changelog
+
+ver.      : 1.1.1.1  
+rel. date : 15/05/2026
+
+- Migliorata usabilità sotto Linux (Wine)
+
 
 ver.      : 1.0.1.1  
 rel. date : 18/10/2001

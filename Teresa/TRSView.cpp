@@ -26,7 +26,7 @@ IMPLEMENT_DYNCREATE(CTRSView, CListView)
 
 CTRSView::CTRSView()
 {
-	m_font.CreateFont(14,6,0,0,FW_NORMAL,false,false,false,ANSI_CHARSET,
+	m_font.CreateFont(14,8,0,0,FW_NORMAL,false,false,false,ANSI_CHARSET,
 		OUT_DEFAULT_PRECIS,CLIP_DEFAULT_PRECIS,
 		DEFAULT_QUALITY,FIXED_PITCH|FF_DONTCARE,"Courier");
 }

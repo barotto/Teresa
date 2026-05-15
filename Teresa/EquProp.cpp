@@ -83,7 +83,7 @@ void CEquProp::OnShowWindow(BOOL bShow, UINT nStatus)
 	CPropertyPage::OnShowWindow(bShow, nStatus);
 
 	if (m_bFirstShow) {
-		m_font.CreateFont(8,2,0,0,FW_NORMAL,false,false,false,ANSI_CHARSET,
+		m_font.CreateFont(12,8,0,0,FW_NORMAL,false,false,false,ANSI_CHARSET,
 			OUT_DEFAULT_PRECIS,CLIP_DEFAULT_PRECIS,
 			DEFAULT_QUALITY,FIXED_PITCH|FF_DONTCARE,"Courier");	
 

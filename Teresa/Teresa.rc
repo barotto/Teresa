@@ -486,8 +486,8 @@ END
 //
 
 VS_VERSION_INFO VERSIONINFO
- FILEVERSION 1,0,1,1
- PRODUCTVERSION 1,0,1,1
+ FILEVERSION 1,1,1,1
+ PRODUCTVERSION 1,1,1,1
  FILEFLAGSMASK 0x3fL
 #ifdef _DEBUG
  FILEFLAGS 0x1L
@@ -505,14 +505,14 @@ BEGIN
             VALUE "Comments", "TErm REwriting System Application, per il corso di Logica 2 prof.Ghilardi DSI, Milano\0"
             VALUE "CompanyName", "\0"
             VALUE "FileDescription", "Teresa\0"
-            VALUE "FileVersion", "1, 0, 1, 1\0"
+            VALUE "FileVersion", "1, 1, 1, 1\0"
             VALUE "InternalName", "Teresa\0"
             VALUE "LegalCopyright", "(C) 2001 Marco Bortolin, Alberto Minora\0"
             VALUE "LegalTrademarks", "\0"
             VALUE "OriginalFilename", "Teresa.exe\0"
             VALUE "PrivateBuild", "\0"
             VALUE "ProductName", "Teresa\0"
-            VALUE "ProductVersion", "1, 0, 1, 1\0"
+            VALUE "ProductVersion", "1, 1, 1, 1\0"
             VALUE "SpecialBuild", "\0"
         END
     END
@@ -610,7 +610,7 @@ STRINGTABLE PRELOAD DISCARDABLE
 BEGIN
     IDR_MAINFRAME           "Teresa"
     IDR_TERESATYPE          "\nTSA\nTSA\nTeresa (*.TSA)\n.tsa\nTeresa.Document\nTeresa"
-    IDS_TERESAGUI_VERSION   "1.0"
+    IDS_TERESAGUI_VERSION   "1.1"
 END
 
 STRINGTABLE PRELOAD DISCARDABLE 

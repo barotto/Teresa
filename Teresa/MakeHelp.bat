@@ -20,7 +20,7 @@ REM -- Make help for Project TERESA
 
 
 echo Building Win32 Help files
-start /wait C:\MSVS\Common\Tools\hcw /C /E /M "hlp\Teresa.hpj"
+start "" /wait "C:\Programmi\Microsoft Visual Studio\Common\Tools\hcw" /C /E /M "hlp\Teresa.hpj"
 if errorlevel 1 goto :Error
 if not exist "hlp\Teresa.hlp" goto :Error
 if not exist "hlp\Teresa.cnt" goto :Error
