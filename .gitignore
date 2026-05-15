@@ -2,3 +2,6 @@
 .project
 Teresa/Release
 Teresa/Debug
+*.LOG
+*.HLP
+*.GID

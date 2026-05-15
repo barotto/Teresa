@@ -62,7 +62,7 @@ AFX_HIDP_FAILED_TO_REGISTER       = AFX_HIDP_default
 AFX_HIDP_FAILED_TO_AUTO_REGISTER  = AFX_HIDP_default
 
 [MAP]
-#include ..\..\..\..\..\MSVS\VC98\MFC\include\afxhelp.hm
+#include "C:\Programmi\Microsoft Visual Studio\VC98\MFC\include\afxhelp.hm"
 #include Teresa.hm
 
 [WINDOWS]
