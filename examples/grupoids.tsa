@@ -1,0 +1,12 @@
+[TEORIA]
+(X*Y)*(Y*Z)=Y
+
+[ORDINE]
+*
+
+[TRS]
+(X*Y)*(Y*Z)=Y
+Y*((Y*Z)*X)=Y*Z
+(X*(Z*Y))*Y=Z*Y
+[DESCRIZIONE]
+Central grupoids

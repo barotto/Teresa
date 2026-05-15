@@ -1,0 +1,6 @@
+[TEORIA]
+g(Y)=X
+f(X,h(X),Y)=f(g(Z),W,Z)
+
+[ORDINE]
+g>h>f

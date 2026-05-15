@@ -1,0 +1,12 @@
+[TEORIA]
+inv(X)*(X*Y)=Y
+
+[ORDINE]
+inv>*
+
+[TRS]
+inv(X)*(X*Y)=Y
+inv(inv(X))*Y=X*Y
+X*(inv(X)*Y)=Y
+[DESCRIZIONE]
+Inverse property

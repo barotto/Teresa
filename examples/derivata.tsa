@@ -1,0 +1,12 @@
+[TEORIA]
+dx(x)=1
+dx(y)=0
+dx(U+V)=dx(U)+dx(V)
+dx(U*V)=(U*dx(V))+(dx(U)*V)
+
+[ORDINE]
+dx>*>+>x=1=y=0
+
+[DESCRIZIONE]
+Regole di derivazione.
+'dx' = 'derivata rispetto a x'

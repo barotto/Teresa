@@ -1,0 +1,21 @@
+[TEORIA]
+(X*Y)*Z=X*(Y*Z)
+X*inv(X)=1
+1*X=X
+
+[ORDINE]
+inv>*>1
+
+[TRS]
+(X*Y)*Z=X*(Y*Z)
+X*inv(X)=1
+1*X=X
+inv(1)=1
+X*(inv(X)*Z)=Z
+inv(inv(X))=X*1
+inv(X)*(X*Z)=Z
+inv(X)*1=inv(X)
+inv(X*Y)=inv(Y)*inv(X)
+
+[DESCRIZIONE]
+Teoria dei gruppi modificata.

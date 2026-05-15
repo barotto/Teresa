@@ -1,0 +1,17 @@
+[TEORIA]
+1*X=X
+X*inv(X)=1
+(X*Y)*Z=X*(Y*Z)
+inv(1)=1
+inv(X*Y)=inv(Y)*inv(X)
+X*(inv(X)*Y)=Y
+inv(X)*(X*Y)=Y
+X*1=inv(inv(X))
+inv(inv(inv(X)))=inv(X)
+inv(inv(X))*Y=X*Y
+d*d=1
+r*r*r=1
+d*(r*r)=r*d
+
+[ORDINE]
+inv>*>1>d>r
