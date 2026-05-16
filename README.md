@@ -2,9 +2,6 @@
 
 ![Program icon](./images/teresa.png) TErm REwriting Systems Application
 
-ver. 1.1.1.1  
-15/05/2026
-
 Copyright (C) 2001 Marco Bortolin, Alberto Minora
 
 ![Screenshot of the main interface](./images/screen.png)
@@ -24,6 +21,8 @@ Teresa was born as a project for the Mathematical Logic II course by Prof. Ghila
 The main program is a MFC application for Microsoft Windows, though the term rewriting core is reusable on any project and operating system.
 
 *Note*: the program and the documentation are in **italian only**.
+
+*The source of this application has been recovered from a crusty old floppy disk found inside a moldy box kept in a dark cellar. It's a relic from a bygone era. The world of CS and the one of humans were both very different back then. The authors won't accept any resposibility (see the license).*
 
 ## Informazioni generali
 
